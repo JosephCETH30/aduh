@@ -10,7 +10,8 @@ import thumbMenkiki from '../public/images/works/urusizin.jpg'
 import thumbMargelo from '../public/images/works/figma1.jpg'
 import thumbModeTokyo from '../public/images/works/figma2.jpg'
 import thumbStyly from '../public/images/works/figma3.jpg'
-import thumbKaiMobile from '../public/images/works/figma4.jpg'
+import thumbKaiMobile from '../public/images/works/kai4.png'
+import thumbAeproject1 from '../public/images/works/pspo1.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -101,7 +102,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbKaiMobile} title="KAI Mobile Redesign">
+          <WorkGridItem id="kairedesign" thumbnail={thumbKaiMobile} title="KAI Mobile Redesign">
           its just self-project but if you want to see this project just click on it
           </WorkGridItem>
         </Section>
@@ -130,28 +131,14 @@ const Works = () => (
         </Heading>
       </Section>
 
-      {/* <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
-            Twitter client app for iPhone Safari
+          <WorkGridItem id="psofitopenitup" thumbnail={thumbAeproject1} title="Product Spoiler">
+            Fitopenitup Spoiler in AE (After Effect)
           </WorkGridItem>
         </Section>
-        <Section delay={0.5}>
-          <WorkGridItem
-            id="freedbtagger"
-            thumbnail={thumbFreeDBTagger}
-            title="freeDBTagger"
-          >
-            Automatic audio file tagging tool using FreeDB for Windows
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.6}>
-          <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
-            P2P private file sharing tool with MSN Messenger integration for
-            Windows
-          </WorkGridItem>
-        </Section>
-      </SimpleGrid> */}
+        
+      </SimpleGrid>
     </Container>
   </Layout>
 )
