@@ -3,99 +3,134 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
-import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
-import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
-import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
-import thumbStyly from '../public/images/works/styly_eyecatch.png'
-import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
-import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
+import thumbInkdrop from '../public/images/works/halalhero.jpg'
+import thumbWalknote from '../public/images/works/halalhero.jpg'
+import thumbFourPainters from '../public/images/works/karamel.jpg'
+import thumbMenkiki from '../public/images/works/urusizin.jpg'
+import thumbMargelo from '../public/images/works/figma1.jpg'
+import thumbModeTokyo from '../public/images/works/figma2.jpg'
+import thumbStyly from '../public/images/works/figma3.jpg'
+import thumbKaiMobile from '../public/images/works/figma4.jpg'
 
 const Works = () => (
   <Layout title="Works">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Works
+        Web Project
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          <WorkGridItem id="halalhero" title="Halalhero" thumbnail={thumbInkdrop}>
+          Daftarkan Sekarang Gratis, Sertifikat Halal untuk UMKM di Halalhero.id
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
-            id="walknote"
-            title="walknote"
+            id="urushalal"
+            title="Urushalal"
             thumbnail={thumbWalknote}
           >
-            Music recommendation app for iOS
+            
+          Daftarkan Sekarang Gratis, Sertifikat Halal untuk UMKM di urushalal.co
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
+            id="karamelgroup"
+            title="KaramelGroup"
             thumbnail={thumbFourPainters}
           >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+            Kami merancang pengalaman digital yang bijaksana dan estetika merek yang indah
           </WorkGridItem>
         </Section>
+
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
+          <WorkGridItem id="urusizin" thumbnail={thumbMenkiki} title="Urus Izin">
+          Kami adalah solusi one-stop untuk membantu Anda mengatasi setiap tantangan dalam memperoleh izin usaha. 
           </WorkGridItem>
         </Section>
       </SimpleGrid>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* FIGMA */}
       <Section delay={0.2}>
         <Divider my={6} />
 
+
         <Heading as="h3" fontSize={20} mb={4}>
-          Collaborations
+          Figma Design
         </Heading>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">
-            A website of the elite app development and contracting agency based
-            in Austria
+          <WorkGridItem id="personaldarkui" thumbnail={thumbMargelo} title="Personal Portfolio">
+            Free to use, Personal portfolio website interface in Darkmode version 
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem
-            id="modetokyo"
+            id="athleticptf"
             thumbnail={thumbModeTokyo}
-            title="mode.tokyo"
+            title="Athletic Portfolio"
           >
-            The mode magazine for understanding to personally enjoy Japan
+          Free to use, Athletic portfolio website interface in Soft version 
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbStyly} title="Styly">
-            A VR Creative tools for fashion brands
+          <WorkGridItem id="styly" thumbnail={thumbStyly} title="FitOpenitUp">
+          Web Interface that encourages users to participate in fitness challenges.
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="styly" thumbnail={thumbKaiMobile} title="KAI Mobile Redesign">
+          its just self-project but if you want to see this project just click on it
           </WorkGridItem>
         </Section>
       </SimpleGrid>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* Motion Graphic */}
       <Section delay={0.4}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Old works
+          Motion Graphic
         </Heading>
       </Section>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      {/* <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
           <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
             Twitter client app for iPhone Safari
@@ -116,7 +151,7 @@ const Works = () => (
             Windows
           </WorkGridItem>
         </Section>
-      </SimpleGrid>
+      </SimpleGrid> */}
     </Container>
   </Layout>
 )

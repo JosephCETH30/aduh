@@ -16,9 +16,8 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import { IoLogoInstagram, IoLogoGithub, IoLogoMedium } from 'react-icons/io5'
+import thumbJuara1 from '../public/images/works/th1.jpg'
 import Image from 'next/image'
 
 const Home = () => (
@@ -32,15 +31,16 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        Hi, I&apos;m an UX Designer Based in Jakarta, Indonesia 
+
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Yosef Rafael Bonar Clinton R.
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Tech & NBA Enthusiastm ( UX Dev - FrontEnd Dev )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -59,7 +59,7 @@ const Home = () => (
             overflow="hidden"
           >
             <Image
-              src="/images/takuya.jpg"
+              src="/images/yoseph.jpg"
               alt="Profile image"
               width="100"
               height="100"
@@ -70,29 +70,10 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          About Me
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
-            Inkdrop
-          </Link>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <Link
-            as={NextLink}
-            href="https://www.youtube.com/devaslife"
-            passHref
-            target="_blank"
-          >
-            Dev as Life
-          </Link>
-          &quot; has more than 100k subscribers.
+        A self-employed Junior Devops - Designer residing in Jakarta, driven by a deep enthusiasm for constructing digital services and projects according to his preferences. Possessing a talent for overseeing the entire product launch process, ranging from conceptualization and design to utilizing code to address practical challenges. nice to meet yall.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -112,55 +93,45 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>2006</BioYear>
+          Born in Jakarta, Indonesia
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>2022</BioYear>
+          Start Building Pyoseph Network as self Projects 
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>2023</BioYear>
+          6 Month Intern Web developer at KCDI
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Working as a freelancer
+          <BioYear>2028</BioYear>
+          I hope i can work in google soon ♥
         </BioSection>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥
+          Id like to
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
-          </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link>
-          , Leica, Machine Learning
+          Designing UI/UX, Playing Piano, Guitar, Bass, Drum, Basketball PG player, Volleyball as a Setter, Chruch Multimedia.
         </Paragraph>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          On the web
+          Others
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/JosephCETH30" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @JosephCETH30
               </Button>
             </Link>
           </ListItem>
@@ -169,70 +140,58 @@ const Home = () => (
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
+                leftIcon={<IoLogoMedium />}
               >
-                @inkdrop_app (English)
+                @Pyoseph (Indonesia)
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @craftzdog (日本語)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link href="https://instagram.com/_yoseph28" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @craftzdog
+                @_yoseph28
               </Button>
             </Link>
           </ListItem>
         </List>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
+          {/* <GridItem
             href="https://www.youtube.com/devaslife"
             title="Dev as Life"
             thumbnail={thumbYouTube}
           >
             My YouTube channel (&gt;150k subs)
-          </GridItem>
+          </GridItem> */}
           <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
+            href="https://instagram.com/_yoseph28"
+            title="Pengiring alias Pianist"
+            thumbnail={thumbJuara1}
           >
-            A Markdown note-taking app
+            Juara 1 Hoki ini bang asli dah
           </GridItem>
         </SimpleGrid>
 
         <Heading as="h3" variant="section-title">
-          Newsletter
+          Contact Me
         </Heading>
         <p>
-          Join me on a behind-the-scenes coding journey. Weekly updates on
-          projects, tutorials, and videos
+          Feel free to ask me about something or for something, i wish i can do my best for ya!
         </p>
 
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="https://www.devas.life/"
+            href="mailto:yoseph@skiff.com"
             scroll={false}
             leftIcon={<EmailIcon />}
             colorScheme="teal"
           >
-            Sign up my newsletter here
+            Email Me click here
           </Button>
         </Box>
       </Section>

@@ -12,45 +12,48 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Inkdrop">
+  <Layout title="Halalhero">
     <Container>
       <Title>
-        Inkdrop <Badge>2016-</Badge>
+        Halalhero <Badge>2022-2024</Badge>
       </Title>
       <P>
-        A Markdown note-taking app with 100+ plugins, cross-platform and
-        encrypted data sync support. The life-time revenue is more than $300k.
+      Dapatkan Informasi dan Pengetahuan tentang Makanan Halal dari Sumber Terpercaya.
+      Website penyelia halal yang bekerja sama langsung dengan BPJPH dan sihalal PTSP
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://www.inkdrop.app/">
-            https://www.inkdrop.app/ <ExternalLinkIcon mx="2px" />
+          <Link href="https://www.halalhero.id">
+            https://www.halalhero.id <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
+          <Meta>Affilated</Meta>
+          <span>sihalal, BPJPH, Walikota Jakarta timur, Kelurahan di Seluruh Jakarta Timur, Kementrian</span>
+        </ListItem>
+        <ListItem>
           <Meta>Platform</Meta>
-          <span>Windows/macOS/Linux/iOS/Android</span>
+          <span>Windows/Android/iOS</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>NodeJS, Electron, React Native</span>
+          <span>Javascript, CSS, Bootstrap</span>
         </ListItem>
         <ListItem>
           <Meta>Blogpost</Meta>
-          <Link href="https://blog.inkdrop.app/how-ive-attracted-the-first-500-paid-users-for-my-saas-that-costs-5-mo-7a5b94b8e820">
-            How I’ve Attracted The First 500 Paid Users For My SaaS That Costs
-            $5/mo <ExternalLinkIcon mx="2px" />
+          <Link href="#">
+            Mengapa harus mendaftar sertifikat halal?, padahal makanan yang saya jual sudah Halal LOH! <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/halalhero.jpg" alt="Halalhero" />
+      <WorkImage src="/images/works/halalhero2.jpg" alt="Halalhero" />
       <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
-          src="https://www.youtube.com/embed/-qBavwqc_mY"
-          title="YouTube video player"
+          src="https://player.vimeo.com/video/909703105?h=e54cd8aeb9"
+          title="Vimeo video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
