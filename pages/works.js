@@ -96,7 +96,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbStyly} title="FitOpenitUp">
+          <WorkGridItem id="fitopenitup" thumbnail={thumbStyly} title="FitOpenitUp">
           Web Interface that encourages users to participate in fitness challenges.
           </WorkGridItem>
         </Section>
