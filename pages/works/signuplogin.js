@@ -3,8 +3,7 @@ import {
   Badge,
   Link,
   List,
-  ListItem,
-  AspectRatio
+  ListItem
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -12,28 +11,28 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="Project Spoiler Fitopenitup Motion Graphic">
+  <Layout title="Signup Login Page">
     <Container>
       <Title>
-        Project Spoiler Fitopenitup Motion Graphic  <Badge>2024</Badge>
+        Signup Login Page (Interface) <Badge>2023</Badge>
       </Title>
       <P>
-      Project Spoiler Fitopenitup Motion Graphic is a dynamic and visually captivating section that seamlessly integrates cutting-edge motion graphics to enhance the overall user experience. This engaging component is carefully crafted to evoke a sense of excitement and curiosity, enticing viewers to delve into the content without revealing any spoilers. The motion graphics are meticulously designed to open up a world of intrigue and anticipation, creating an immersive atmosphere that sparks interest without giving away key details.
+      The Signup Login Page Interface in Figma is an aesthetically refined and thoughtfully designed section that seamlessly integrates user-friendly elements for a streamlined onboarding experience. The interface strikes a balance between simplicity and sophistication, ensuring an intuitive journey for users navigating through the signup and login processes.
       </P>
 
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
           <span>
-            <Link href="https://www.mediafire.com/file/tpt4p4o2jxwdmhl/FitopenitupSpoil.mp4/file" target="_blank">
-              https://mediafire.com/?file..... <ExternalLinkIcon mx="2px" />
+            <Link href="https://www.figma.com/file/LyWuzJ8YWIAEx2ySF2724c/Portfolio---Login-Page?type=design&node-id=10%3A2&mode=design&t=1hEm9YboCXNT3VG6-1" target="_blank">
+              https://figma.com/?file..... <ExternalLinkIcon mx="2px" />
             </Link>
           </span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
           <span>
-            Figma, Adobe After Effect, Adobe Media Encoder, Sketch
+            Figma, Adobe Illustrator, Adobe XD, Sketch
           </span>
         </ListItem>
         <ListItem>
@@ -44,16 +43,21 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/pspo1.png" alt="darkmodeui" />
+      <WorkImage src="/images/works/signup2.png" alt="darkmodeui" />
+      <WorkImage src="/images/works/signup3.png" alt="darkmodeui" />
+      <WorkImage src="/images/works/signup4.png" alt="darkmodeui" />
+      <WorkImage src="/images/works/signup5.png" alt="darkmodeui" />
+      
+      <WorkImage src="/images/works/Mobilemode.png" alt="darkmodeui" />
 
-      <AspectRatio maxW="640px" ratio={1.7} my={4}>
+      {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
           src="/images/works/FitopenitupSpoil.mp4"
           title="video player"
           allow="accelerometer; autoplay; loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
-      </AspectRatio>
+      </AspectRatio> */}
     </Container>
   </Layout>
 )

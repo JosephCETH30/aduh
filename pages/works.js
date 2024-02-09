@@ -12,6 +12,10 @@ import thumbModeTokyo from '../public/images/works/figma2.jpg'
 import thumbStyly from '../public/images/works/figma3.jpg'
 import thumbKaiMobile from '../public/images/works/kai4.png'
 import thumbAeproject1 from '../public/images/works/pspo1.png'
+import thumbSignup from '../public/images/works/signup1.png'
+import thumbPyoseph from '../public/images/works/pyoseph1.png'
+import thumbKominfas from '../public/images/works/kominfas1.png'
+import thumbWeather from '../public/images/works/weatherapp1.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -77,7 +81,7 @@ const Works = () => (
 
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Figma Design
+          UI/UX Design
         </Heading>
       </Section>
 
@@ -104,6 +108,26 @@ const Works = () => (
         <Section delay={0.3}>
           <WorkGridItem id="kairedesign" thumbnail={thumbKaiMobile} title="KAI Mobile Redesign">
           its just self-project but if you want to see this project just click on it
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="signuplogin" thumbnail={thumbSignup} title="Signup Login Page">
+          Web Interface that encourages users to Signup and Login.
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="simpleptf" thumbnail={thumbPyoseph} title="Simple Portfolio">
+          Web Interface that encourages users to show up their works
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="kominfas" thumbnail={thumbKominfas} title="Kominfas">
+          Web Interface that encourages users to access kominfas information
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="weatherapp" thumbnail={thumbWeather} title="Quick Weather Interface">
+          Web Interface that encourages users to access info about weather
           </WorkGridItem>
         </Section>
       </SimpleGrid>
