@@ -17,7 +17,7 @@ const Work = () => (
       Kominfas (Kominfo App Duplicated) <Badge>2023</Badge>
       </Title>
       <P>
-      Responsive design principles are integrated to guarantee a consistent and engaging experience across various devices. The interface's simplicity extends to its adaptability, ensuring that the portfolio looks polished and professional on screens of all sizes.
+      Responsive design principles are integrated to guarantee a consistent and engaging experience across various devices. The interfaces simplicity extends to its adaptability, ensuring that the portfolio looks polished and professional on screens of all sizes.
 
 </P>
 

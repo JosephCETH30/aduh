@@ -17,7 +17,7 @@ const Work = () => (
       Simple Portfolio Interface <Badge>2023</Badge>
       </Title>
       <P>
-      The Simple Portfolio Interface in Figma is a minimalist and elegantly designed section that showcases a user's creative work with clarity and sophistication. Stripping away unnecessary complexities, this interface focuses on delivering a clean and intuitive experience for both the portfolio owner and visitors.</P>
+      The Simple Portfolio Interface in Figma is a minimalist and elegantly designed section that showcases a users creative work with clarity and sophistication. Stripping away unnecessary complexities, this interface focuses on delivering a clean and intuitive experience for both the portfolio owner and visitors.</P>
 
       <List ml={4} my={4}>
         <ListItem>
