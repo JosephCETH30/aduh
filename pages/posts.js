@@ -18,7 +18,7 @@ const Posts = () => (
           <GridItem
             title="Golden State Warriors Kalah 2x dengan margin point yang bikin sakit kepala"
             thumbnail={thumbHowToUseInkdrop}
-            href="https://www.youtube.com/watch?v=-qBavwqc_mY"
+            href="https://pyoseph.medium.com/golden-state-warriors-kalah-2x-dengan-margin-point-yang-bikin-sakit-kepala-f33ce8979499?source=user_profile---------1----------------------------"
           />
           <GridItem
             title="Emang bener Figma Berbayar? Rudi Gong!"

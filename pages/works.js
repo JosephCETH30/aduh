@@ -16,6 +16,7 @@ import thumbSignup from '../public/images/works/signup1.png'
 import thumbPyoseph from '../public/images/works/pyoseph1.png'
 import thumbKominfas from '../public/images/works/kominfas1.png'
 import thumbWeather from '../public/images/works/weatherapp1.png'
+import thumbGlossy from '../public/images/works/glossy1.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -128,6 +129,11 @@ const Works = () => (
         <Section delay={0.3}>
           <WorkGridItem id="weatherapp" thumbnail={thumbWeather} title="Quick Weather Interface">
           Web Interface that encourages users to access info about weather
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="glossyptf" thumbnail={thumbGlossy} title="Glossy website">
+          Free to use, Glossy portfolio website i create this bcs of something
           </WorkGridItem>
         </Section>
       </SimpleGrid>
