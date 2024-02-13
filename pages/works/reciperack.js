@@ -46,9 +46,9 @@ const Work = () => (
 
       <WorkImage src="/images/works/reciperacksthumb1.png" alt="recipe rack" />
       <WorkImage src="/images/works/reciperacksthumb2.png" alt="recipe rack" />
-      <AspectRatio maxW="auto" ratio={1.1} my={4}>
+      <AspectRatio maxW="630px" ratio={1.7} my={4}>
       <iframe
-        src="/images/works/video1reciperack.gif"
+        src="/images/works/video1reciperack.mp4"
         title="Video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
