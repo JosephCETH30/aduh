@@ -6,6 +6,7 @@ import { GridItem } from '../components/grid-item'
 import thumbHowToUseInkdrop from '../public/images/contents/netlifypost3.jpg'
 import thumbFishWorkflow from '../public/images/contents/netlifypost2.jpg'
 import thumbMyDeskSetup from '../public/images/contents/netlifypost.jpg'
+import thumbToba1 from '../public/images/contents/toba1.webp'
 const Posts = () => (
   <Layout title="Posts">
     <Container>
@@ -29,6 +30,11 @@ const Posts = () => (
             title="Cara upload website ke Netlify"
             thumbnail={thumbMyDeskSetup}
             href="https://pyoseph.medium.com/cara-upload-website-dengan-mudah-ke-netlify-2396aa597ad5?source=user_profile---------3----------------------------"
+          />
+           <GridItem
+            title="Perjalanan Ke Toba Menempuh waktu 4 hari 3 Malam dengan Mobil?"
+            thumbnail={thumbToba1}
+            href="https://pyoseph.medium.com/perjalanan-ke-toba-menempuh-waktu-4-hari-3-malam-dengan-mobil-56e3baee046a"
           />
         </SimpleGrid>
       </Section>
