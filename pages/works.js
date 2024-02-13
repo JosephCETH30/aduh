@@ -138,7 +138,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="reciperack" thumbnail={thumbReciperack} title="Glossy website">
+          <WorkGridItem id="reciperack" thumbnail={thumbReciperack} title="Recipe Racks">
           Free for Personal use, reciperack platform for organizing and discovering recipes
           </WorkGridItem>
         </Section>
