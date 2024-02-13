@@ -9,7 +9,7 @@ import thumbMyDeskSetup from '../public/images/contents/netlifypost.jpg'
 import thumbToba1 from '../public/images/contents/toba1.webp'
 
 import thumbRec1posts from '../public/images/contents/xampp1.jpg'
-import thumbRec2posts from '../public/images/contents/HTML-basic-format.png'
+import thumbRec2posts from '../public/images/contents/HTML-Basic-Format.png'
 const Posts = () => (
   <Layout title="Posts">
     <Container>
