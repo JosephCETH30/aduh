@@ -60,6 +60,7 @@ const Work = () => (
       <WorkImage src="/images/works/kai3.png" alt="darkmodeui" />
       <WorkImage src="/images/works/kai4.png" alt="darkmodeui" />
       <WorkImage src="/images/works/kai5.jpg" alt="darkmodeui" />
+      <WorkImage src="/images/works/lastmodekai.png" alt="darkmodeui" />
     </Container>
   </Layout>
 )

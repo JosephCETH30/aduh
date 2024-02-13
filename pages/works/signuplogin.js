@@ -49,6 +49,8 @@ const Work = () => (
       <WorkImage src="/images/works/signup5.png" alt="darkmodeui" />
       
       <WorkImage src="/images/works/Mobilemode.png" alt="darkmodeui" />
+      
+      <WorkImage src="/images/works/lastmodesimple.png" alt="darkmodeui" />
 
       {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe

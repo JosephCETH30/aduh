@@ -48,6 +48,7 @@ const Work = () => (
       <WorkImage src="/images/works/kominfas3.png" alt="kominfas" />
       <WorkImage src="/images/works/kominfas4.png" alt="kominfas" />
       <WorkImage src="/images/works/kominfas3.png" alt="kominfas" />
+      <WorkImage src="/images/works/lastmodekominfas.png" alt="kominfas" />
     </Container>
   </Layout>
 )
