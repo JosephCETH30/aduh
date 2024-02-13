@@ -16,7 +16,7 @@ const Posts = () => (
           <GridItem
             title="Flappy Bird Game"
             thumbnail={popmeUpthumb}
-            href="https://confirm.flappy.netlify.app"
+            href="https://confirm-flappy.netlify.app"
           />
           
       </Section>
