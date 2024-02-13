@@ -17,6 +17,7 @@ import thumbPyoseph from '../public/images/works/pyoseph1.png'
 import thumbKominfas from '../public/images/works/kominfas1.png'
 import thumbWeather from '../public/images/works/weatherapp1.png'
 import thumbGlossy from '../public/images/works/glossy1.png'
+import thumbReciperack from '../public/images/works/reciperacksthumb1.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -134,6 +135,11 @@ const Works = () => (
         <Section delay={0.3}>
           <WorkGridItem id="glossyptf" thumbnail={thumbGlossy} title="Glossy website">
           Free to use, Glossy portfolio website i create this bcs of something
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="reciperack" thumbnail={thumbReciperack} title="Glossy website">
+          Free for Personal use, reciperack platform for organizing and discovering recipes
           </WorkGridItem>
         </Section>
       </SimpleGrid>
