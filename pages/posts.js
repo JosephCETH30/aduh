@@ -6,7 +6,6 @@ import { GridItem } from '../components/grid-item'
 import thumbHowToUseInkdrop from '../public/images/contents/netlifypost3.jpg'
 import thumbFishWorkflow from '../public/images/contents/netlifypost2.jpg'
 import thumbMyDeskSetup from '../public/images/contents/netlifypost.jpg'
-import thumbToba1 from '../public/images/contents/toba1.webp'
 
 import thumbRec1posts from '../public/images/contents/xampp1.jpg'
 import thumbRec2posts from '../public/images/contents/HTML-Basic-Format.png'
