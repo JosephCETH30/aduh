@@ -12,8 +12,7 @@ const Blog = () => (
 ">
     <Container>
       <Title>
-      Emang bener Figma Berbayar? Rudi Gong!
-<Badge>2024</Badge>
+      Emang bener Figma Berbayar? Rudi Gong! <Badge> Jan 29,2024</Badge>
       </Title>
       <P>
       Saya sempat mendengar ada isu atau ada omongan “orang” yang mengatakan bahwa figma berbayar, rugi dong kalau  bayar.</P>

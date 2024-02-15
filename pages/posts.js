@@ -14,7 +14,7 @@ const Posts = () => (
   <Layout title="Posts">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Medium Posts
+        Blog Posts
       </Heading>
 
       <Section delay={0.1}>
@@ -32,12 +32,7 @@ const Posts = () => (
           <GridItem
             title="Cara upload website ke Netlify"
             thumbnail={thumbMyDeskSetup}
-            href="https://pyoseph.medium.com/cara-upload-website-dengan-mudah-ke-netlify-2396aa597ad5?source=user_profile---------3----------------------------"
-          />
-           <GridItem
-            title="Perjalanan Ke Toba Menempuh waktu 4 hari 3 Malam dengan Mobil?"
-            thumbnail={thumbToba1}
-            href="https://pyoseph.medium.com/perjalanan-ke-toba-menempuh-waktu-4-hari-3-malam-dengan-mobil-56e3baee046a"
+            href="/blog/cara-upload-website-netlify-easc"
           />
         </SimpleGrid>
       </Section>

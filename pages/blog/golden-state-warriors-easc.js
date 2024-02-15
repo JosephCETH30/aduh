@@ -11,7 +11,7 @@ const Blog = () => (
   <Layout title="Golden State Warriors Kalah 2x dengan margin point yang bikin sakit kepala">
     <Container>
       <Title>
-      Golden State Warriors Kalah 2x dengan margin point yang bikin sakit kepala<Badge>2024</Badge>
+      Golden State Warriors Kalah 2x dengan margin point yang bikin sakit kepala <Badge> Jan 29,2024</Badge>
       </Title>
       <P>
       Lagi lagi nih gsw mengalami kekalahan yang brutal bahkan sangat menyakitkan. mengapa? karena 2 game terakhir ini gsw kalah dengan margin point 1 alias perbedaan kekalahannya hanya karena 1 point. kira kira curry bakal pensiun atau enggak ya soalnya kemarin dia robek bajunya saking frustasi dan kesal liat tim yang badabembadabum.
