@@ -12,13 +12,13 @@ import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="Project Spoiler Fitopenitup Motion Graphic">
+  <Layout title="Deseogourmet Animation with After effect">
     <Container>
       <Title>
-        Project Spoiler Fitopenitup Motion Graphic  <Badge>2024</Badge>
+        Deseogourmet Animation with After effect  <Badge>2024</Badge>
       </Title>
       <P>
-      Project Spoiler Fitopenitup Motion Graphic is a dynamic and visually captivating section that seamlessly integrates cutting-edge motion graphics to enhance the overall user experience. This engaging component is carefully crafted to evoke a sense of excitement and curiosity, enticing viewers to delve into the content without revealing any spoilers. The motion graphics are meticulously designed to open up a world of intrigue and anticipation, creating an immersive atmosphere that sparks interest without giving away key details.
+      Deseogourmet Animation with After effect is a dynamic and visually captivating section that seamlessly integrates cutting-edge motion graphics to enhance the overall user experience. This engaging component is carefully crafted to evoke a sense of excitement and curiosity, enticing viewers to delve into the content without revealing any spoilers. The motion graphics are meticulously designed to open up a world of intrigue and anticipation, creating an immersive atmosphere that sparks interest without giving away key details.
       </P>
 
       <List ml={4} my={4}>
@@ -33,7 +33,7 @@ const Work = () => (
         <ListItem>
           <Meta>Stack</Meta>
           <span>
-            Figma, Adobe After Effect, Adobe Media Encoder, Sketch
+            Figma, Adobe After Effect, Adobe Media Encoder, Adobe Illustrator
           </span>
         </ListItem>
         <ListItem>
