@@ -22,12 +22,12 @@ const Posts = () => (
           <GridItem
             title="Golden State Warriors Kalah 2x dengan margin point yang bikin sakit kepala"
             thumbnail={thumbHowToUseInkdrop}
-            href="https://pyoseph.medium.com/golden-state-warriors-kalah-2x-dengan-margin-point-yang-bikin-sakit-kepala-f33ce8979499?source=user_profile---------1----------------------------"
+            href="/blog/golden-state-warriors-easc"
           />
           <GridItem
             title="Emang bener Figma Berbayar? Rudi Gong!"
             thumbnail={thumbFishWorkflow}
-            href="https://pyoseph.medium.com/emang-bener-figma-berbayar-rudi-gong-3208c10915a6?source=user_profile---------2----------------------------"
+            href="/blog/figma-berbayar-watdepak-easc"
           />
           <GridItem
             title="Cara upload website ke Netlify"
