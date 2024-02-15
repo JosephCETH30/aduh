@@ -18,6 +18,7 @@ import thumbKominfas from '../public/images/works/kominfas1.png'
 import thumbWeather from '../public/images/works/weatherapp1.png'
 import thumbGlossy from '../public/images/works/glossy1.png'
 import thumbReciperack from '../public/images/works/reciperacksthumb1.png'
+import thumbMotionmakanan from '../public/images/works/iklanmakanan.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -163,13 +164,19 @@ const Works = () => (
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Motion Graphic
+          Video Editing + Graphic
         </Heading>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
           <WorkGridItem id="psofitopenitup" thumbnail={thumbAeproject1} title="Product Spoiler">
+            Fitopenitup Spoiler in AE (After Effect)
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.5}>
+          <WorkGridItem id="deseogourmet-mg" thumbnail={thumbMotionmakanan} title="DeseoGourmet Animation">
             Fitopenitup Spoiler in AE (After Effect)
           </WorkGridItem>
         </Section>

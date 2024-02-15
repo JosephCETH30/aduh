@@ -7,7 +7,7 @@ import { Title, WorkImage } from '../../components/blog'
 import P from '../../components/paragraph'
 
 const Blog = () => (
-  <Layout title="Emang bener Figma Berbayar? Rudi Gong!
+  <Layout title="Cara Upload Website dengan Mudah ke Netlify
 ">
     <Container>
       <Title>
