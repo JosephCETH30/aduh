@@ -58,7 +58,7 @@ const Home = () => {
           <Heading as="h2" variant="page-title">
             Yosef Rafael Bonar Clinton R.
           </Heading>
-          <p>Tech & NBA Enthusiastm ( UX Dev - FrontEnd Dev )</p>
+          <p>Tech & NBA Enthusiastm ( UX Designer - FrontEnd Web Dev - Data Analyst)</p>
         </Box>
         <Box
           flexShrink={0}
@@ -124,7 +124,7 @@ const Home = () => {
         </BioSection>
         <BioSection>
           <BioYear>2028</BioYear>
-          I hope i can work in google soon ♥
+          I hope i can work in google soon
         </BioSection>
       </Section>
 
