@@ -12,7 +12,7 @@ const Posts = () => (
   <Layout title="Posts">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Blog Posts - 100% tanpa chatgpt
+        Blog Posts
       </Heading>
 
       <Section delay={0.1}>
