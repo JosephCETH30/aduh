@@ -7,11 +7,12 @@ import thumbWarriors from '../public/images/contents/netlifypost-warriors.png'
 import thumbFigmaberbayar from '../public/images/contents/netlifypost-figma-edu.png'
 import thumbNetlifyUpload from '../public/images/contents/netlifypost-upload-web.jpg'
 import thumbKPUPemilu2024 from '../public/images/contents/netlifypost-kpu-realcount.png'
+import thumbBassGuitar from '../public/images/contents/netlifypost-bassor-gitar.png'
 const Posts = () => (
   <Layout title="Posts">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Blog Posts
+        Blog Posts - 100% tanpa chatgpt
       </Heading>
 
       <Section delay={0.1}>
@@ -35,6 +36,11 @@ const Posts = () => (
             title="Bagaimana Cara cek Hasil Real KPU pemilu 2024 ini?"
             thumbnail={thumbKPUPemilu2024}
             href="/blog/cek-hasil-realcount-kpu-pemilu-2024-easc"
+          />
+          <GridItem
+            title="Apakah cara Main bass sama dengan main gitar? | bagaimana cara Memetik bass dengan benar"
+            thumbnail={thumbBassGuitar}
+            href="/blog/bassorgitar-cara-metik-bass-yang-benar-easc"
           />
           
         </SimpleGrid>

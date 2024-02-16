@@ -11,6 +11,7 @@ import {
   useColorModeValue
 } from '@chakra-ui/react'
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
+import React, { useEffect } from 'react';
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
@@ -20,7 +21,24 @@ import { IoLogoInstagram, IoLogoGithub, IoLogoMedium } from 'react-icons/io5'
 import thumbJuara1 from '../public/images/works/th1.jpg'
 import Image from 'next/image'
 
-const Home = () => (
+const Home = () => {
+  // Function to handle the contextmenu event and prevent its default behavior
+  const handleContextMenu = (event) => {
+    event.preventDefault();
+  };
+
+  // Add event listener when the component mounts
+  useEffect(() => {
+    document.addEventListener('contextmenu', handleContextMenu);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      document.removeEventListener('contextmenu', handleContextMenu);
+    };
+  }, []); // Empty dependency array ensures the effect runs only once during mount
+
+    return (
+
   <Layout>
     <Container>
       <Box
@@ -197,7 +215,8 @@ const Home = () => (
       </Section>
     </Container>
   </Layout>
-)
+  );
+}
 
 export default Home
 export { getServerSideProps } from '../components/chakra'
