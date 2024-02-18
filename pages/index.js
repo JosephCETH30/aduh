@@ -58,7 +58,7 @@ const Home = () => {
           <Heading as="h2" variant="page-title">
             Yosef Rafael Bonar Clinton R.
           </Heading>
-          <p>Tech & NBA Enthusiast (J30, Y9, J18, Sawit and DubNation)</p>
+          <p>Tech & NBA Enthusiast (J30, Y9, J18, DubNation)</p>
         </Box>
         <Box
           flexShrink={0}
