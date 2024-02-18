@@ -4,21 +4,21 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbInkdrop from '../public/images/works/halalhero.jpg'
-import thumbWalknote from '../public/images/works/halalhero.jpg'
+import thumbWalknote from '../public/images/works/urushalal.jpg'
 import thumbFourPainters from '../public/images/works/karamel.jpg'
 import thumbMenkiki from '../public/images/works/urusizin.jpg'
+
+// UI Portfolio
 import thumbMargelo from '../public/images/works/figma1.jpg'
 import thumbModeTokyo from '../public/images/works/figma2.jpg'
 import thumbStyly from '../public/images/works/figma3.jpg'
 import thumbKaiMobile from '../public/images/works/kai4.png'
-import thumbAeproject1 from '../public/images/works/pspo1.png'
 import thumbSignup from '../public/images/works/signup1.png'
 import thumbPyoseph from '../public/images/works/pyoseph1.png'
 import thumbKominfas from '../public/images/works/kominfas1.png'
-import thumbWeather from '../public/images/works/weatherapp1.png'
 import thumbGlossy from '../public/images/works/glossy1.png'
 import thumbReciperack from '../public/images/works/reciperacksthumb1.png'
-import thumbMotionmakanan from '../public/images/works/iklanmakanan.png'
+import thumbAeproject1 from '../public/images/works/pspo1.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -129,11 +129,6 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="weatherapp" thumbnail={thumbWeather} title="Quick Weather Interface">
-          Web Interface that encourages users to access info about weather
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.3}>
           <WorkGridItem id="glossyptf" thumbnail={thumbGlossy} title="Glossy website">
           Free to use, Glossy portfolio website i create this bcs of something
           </WorkGridItem>
@@ -176,7 +171,7 @@ const Works = () => (
         </Section>
 
         <Section delay={0.5}>
-          <WorkGridItem id="deseogourmet-mg" thumbnail={thumbMotionmakanan} title="DeseoGourmet Animation">
+          <WorkGridItem id="deseogourmet-mg" thumbnail={thumbAeproject1} title="DeseoGourmet Animation">
             Fitopenitup Spoiler in AE (After Effect)
           </WorkGridItem>
         </Section>
