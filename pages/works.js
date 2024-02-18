@@ -19,6 +19,7 @@ import thumbKominfas from '../public/images/works/kominfas1.png'
 import thumbGlossy from '../public/images/works/glossy1.png'
 import thumbReciperack from '../public/images/works/reciperacksthumb1.png'
 import thumbAeproject1 from '../public/images/works/pspo1.png'
+import thumbStudyinaltos from '../public/images/works/studyinaltos.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -136,6 +137,11 @@ const Works = () => (
         <Section delay={0.3}>
           <WorkGridItem id="reciperack" thumbnail={thumbReciperack} title="Recipe Racks">
           Free for Personal use, reciperack platform for organizing and discovering recipes
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="#maintenance" thumbnail={thumbStudyinaltos} title="StudyinAltos Elearning">
+          The primary goal is to make education accessible to a diverse audience (Under Construction)
           </WorkGridItem>
         </Section>
       </SimpleGrid>
