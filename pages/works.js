@@ -140,9 +140,11 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="#maintenance" thumbnail={thumbStudyinaltos} title="StudyinAltos Elearning">
+          <WorkGridItem id="studyinaltos" thumbnail={thumbStudyinaltos} title="StudyinAltos Elearning">
           The primary goal is to make education accessible to a diverse audience (Under Construction)
           </WorkGridItem>
+
+          
         </Section>
       </SimpleGrid>
 
