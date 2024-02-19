@@ -3,7 +3,8 @@ import {
   Badge,
   Link,
   List,
-  ListItem
+  ListItem,
+  AspectRatio
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -45,6 +46,15 @@ const Work = () => (
       </List>
 
       <WorkImage src="/images/works/kominfas2.png" alt="kominfas" />
+      <AspectRatio maxW="640px" ratio={1.7} my={4}>
+        <iframe
+          src="/images/works/portoui5showcase.mp4"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </AspectRatio>
       <WorkImage src="/images/works/kominfas3.png" alt="kominfas" />
       <WorkImage src="/images/works/kominfas4.png" alt="kominfas" />
       <WorkImage src="/images/works/kominfas3.png" alt="kominfas" />

@@ -48,7 +48,7 @@ const Work = () => (
 
       <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
-          src="https://www.youtube.com/embed/YorECW-J9Xs?si=GkCvzGGlMfCJyMPG"
+          src="/images/works/portoui4showcase.mp4"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -21,10 +21,18 @@ const Work = () => (
 
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Website</Meta>
+          <Meta>File Link</Meta>
           <span>
             <Link href="https://www.figma.com/file/GHecYhEyxYPEXaUVBavJeh/Portfolio---Website-Sketch?type=design&node-id=3%3A4&mode=design&t=US1WUUS3iX9vgAdI-1" target="_blank">
               https://figma.com/?file..... <ExternalLinkIcon mx="2px" />
+            </Link>
+          </span>
+        </ListItem>
+        <ListItem>
+          <Meta>See this live</Meta>
+          <span>
+            <Link href="https://pyoseph.nicepage.io" target="_blank">
+              https://pyoseph.nicepage.io<ExternalLinkIcon mx="2px" />
             </Link>
           </span>
         </ListItem>
