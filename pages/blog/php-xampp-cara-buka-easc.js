@@ -49,7 +49,7 @@ const Blog = () => (
 
       <p>Seperti File yang saya punya, saya sudah siapkan dan taruh di path htdocs di /xampp/.</p> <br></br>
       <WorkImage src="https://i.ibb.co/GcxFMVs/contohfilemanager.png" />
-      <p>File Login register diatas hanya percobaan untuk dibuka di localhost, jika kalian ingin mencobanya juga dengan file yang sama. bisa kok kalian download filenya secara gratis di link berikut - <a href="https://filemejoseph.vercel.app/download/login-register.rar"><u>https://filemejoseph...</u> (Link aman 100% karena gamungkin juga saya kasih link phis*ng nanti nama saya bakal jelek wkwkk lebih ke arah rekam jejak si dah lanjut)</a></p><br></br>
+      <p>File Login register diatas hanya percobaan untuk dibuka di localhost, jika kalian ingin mencobanya juga dengan file yang sama. bisa kok kalian download filenya secara gratis di link berikut - <a href="https://filemejoseph.netlify.app/download/login-register.rar"><u>https://filemejoseph...</u></a> (Link aman 100% karena gamungkin juga saya kasih link phis*ng nanti nama saya bakal jelek wkwkk lebih ke arah rekam jejak si dah lanjut)</p><br></br>
 
       <p>Lanjut setelah sudah kita posisikan filenya di path yang benar yaitu di htdocs di dalam xampp langsung saja kita nyalakan Xamppnya dengan konfigurasi Apache dan MySQL start seperti gambar dibawah ini samakan saja konfigurasinya oke.</p><br></br>
 
