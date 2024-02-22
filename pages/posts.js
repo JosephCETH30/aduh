@@ -8,6 +8,7 @@ import thumbFigmaberbayar from '../public/images/contents/netlifypost-figma-edu.
 import thumbNetlifyUpload from '../public/images/contents/netlifypost-upload-web.jpg'
 import thumbKPUPemilu2024 from '../public/images/contents/netlifypost-kpu-realcount.png'
 import thumbBassGuitar from '../public/images/contents/netlifypost-bassor-gitar.png'
+import thumbXamppupload from '../public/images/contents/netlifypost-xamppopen.png'
 const Posts = () => (
   <Layout title="Posts">
     <Container>
@@ -38,9 +39,14 @@ const Posts = () => (
             href="/blog/cek-hasil-realcount-kpu-pemilu-2024-easc"
           />
           <GridItem
-            title="Apakah cara Main bass sama dengan main gitar? | bagaimana cara Memetik bass dengan benar"
+            title="Apakah cara Main bass sama dengan main gitar? + bagaimana cara Memetik bass dengan benar"
             thumbnail={thumbBassGuitar}
             href="/blog/bassorgitar-cara-metik-bass-yang-benar-easc"
+          />
+          <GridItem
+            title="Cara Mudah membuka File PHP menggunakan XAMPP metode Localhost + Free file untuk ujicoba."
+            thumbnail={thumbXamppupload}
+            href="/blog/php-xampp-cara-buka-easc"
           />
           
         </SimpleGrid>
