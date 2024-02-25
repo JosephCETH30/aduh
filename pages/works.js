@@ -20,6 +20,9 @@ import thumbGlossy from '../public/images/works/glossy1.png'
 import thumbReciperack from '../public/images/works/reciperacksthumb1.png'
 import thumbAeproject1 from '../public/images/works/pspo1.png'
 import thumbStudyinaltos from '../public/images/works/studyinaltos.png'
+import thumb2athletic from '../public/images/works/2athleticptf.png'
+import thumbCryptoApp from '../public/images/works/CrpyptoProx.png'
+
 
 const Works = () => (
   <Layout title="Works">
@@ -141,10 +144,18 @@ const Works = () => (
         </Section>
         <Section delay={0.3}>
           <WorkGridItem id="studyinaltos" thumbnail={thumbStudyinaltos} title="StudyinAltos Elearning">
-          The primary goal is to make education accessible to a diverse audience (Under Construction)
+          The primary goal is to make education accessible to a diverse audience (Paid File)
           </WorkGridItem>
-
-          
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="2athletic" thumbnail={thumb2athletic} title="&quot;2&quot; Athletic Portfolio">
+          You can use this as design preference for your portfolio for free!
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="CryptoProX" thumbnail={thumbCryptoApp} title="CryptoProX">
+          In the future there is full of Blockchain tech, thats primary reason why i create this UI (Paid File)
+          </WorkGridItem>
         </Section>
       </SimpleGrid>
 
