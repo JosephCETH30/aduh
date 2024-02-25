@@ -32,7 +32,7 @@ const Work = () => (
         <ListItem>
           <Meta>Stack</Meta>
           <span>
-            Figma, Adobe Illustator, Adobe XD, Sketch
+            Figma, Adobe Illustator, Adobe XD, Sketch.
           </span>
         </ListItem>
         <ListItem>
