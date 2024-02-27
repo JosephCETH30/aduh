@@ -49,7 +49,7 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/halalhero.jpg" alt="Halalhero" />
+      <WorkImage src="/images/works/urushalal.jpg" alt="Halalhero" />
       <WorkImage src="/images/works/halalhero2.jpg" alt="Halalhero" />
       <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
