@@ -22,6 +22,7 @@ import thumbAeproject1 from '../public/images/works/pspo1.png'
 import thumbStudyinaltos from '../public/images/works/studyinaltos.png'
 import thumb2athletic from '../public/images/works/2athleticptf.png'
 import thumbCryptoApp from '../public/images/works/CrpyptoProx.png'
+import thumbTiketALS from '../public/images/works/travel1web.png'
 
 
 const Works = () => (
@@ -155,6 +156,11 @@ const Works = () => (
         <Section delay={0.3}>
           <WorkGridItem id="CryptoProX" thumbnail={thumbCryptoApp} title="CryptoProX">
           In the future there is full of Blockchain tech, thats primary reason why i create this UI (Paid File)
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="tiketalscom" thumbnail={thumbTiketALS} title="Tiket ALS UI">
+          TIKET ALS - Pembelian tiket bis antar lintas sumatera secara online
           </WorkGridItem>
         </Section>
       </SimpleGrid>
