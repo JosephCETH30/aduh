@@ -178,7 +178,7 @@ const Home = () => {
           Achievement
         </Heading>
 
-        &nbsp; - Juara 1 Band tingkat SMP Sederajat se Jakarta Pusat (2018) <br></br>
+        &nbsp; - Juara 1 Lomba Band sebagai Pianist Tingkat SMP Sederajat (2018) <br></br>
         &nbsp; - Pengiring Juara 1 Solo Vokal FLS2N Jakarta Pusat (2019) <br></br>
         &nbsp; - Pengiring Juara 2 Solo Vokal FLS2N DKI Jakarta (2019) <br></br>
         &nbsp; - Skilvul.com 7th Student in Leaderboard (2023) <br></br>
