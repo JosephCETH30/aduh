@@ -178,11 +178,11 @@ const Home = () => {
           Achievement
         </Heading>
 
-        &nbsp; - Juara 1 Band tingkat SMP - Sederajat se Jakarta Pusat (2018) <br></br>
+        &nbsp; - Juara 1 Band tingkat SMP Sederajat se Jakarta Pusat (2018) <br></br>
         &nbsp; - Pengiring Juara 1 Solo Vokal FLS2N Jakarta Pusat (2019) <br></br>
         &nbsp; - Pengiring Juara 2 Solo Vokal FLS2N DKI Jakarta (2019) <br></br>
         &nbsp; - Skilvul.com 7th Student in Leaderboard (2023) <br></br>
-        &nbsp; - Pengiring Juara 1 Vocal Group Tingkat SMK - Sederajat se Jakarta Pusat 2 (2023) <br></br><br></br>
+        &nbsp; - Pengiring Juara 1 Vocal Group Tingkat SMK Sederajat se Jakarta Pusat 2 (2023) <br></br><br></br>
 
         <Heading as="h3" variant="section-title">
           Contact Me
