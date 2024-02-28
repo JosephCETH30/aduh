@@ -151,7 +151,7 @@ const Home = () => {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://pyoseph.medium.com/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
