@@ -3,15 +3,16 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbInkdrop from '../public/images/works/halalhero.jpg'
-import thumbWalknote from '../public/images/works/urushalal.jpg'
-import thumbFourPainters from '../public/images/works/karamel.jpg'
-import thumbMenkiki from '../public/images/works/urusizin.jpg'
+// Web Portfolio
+import thumbHalalhero from '../public/images/works/halalhero.jpg'
+import thumbUrushalal from '../public/images/works/urushalal.jpg'
+import thumbKaramel from '../public/images/works/karamel.jpg'
+import thumbUrusizin from '../public/images/works/urusizin.jpg'
 
 // UI Portfolio
-import thumbMargelo from '../public/images/works/figma1.jpg'
-import thumbModeTokyo from '../public/images/works/figma2.jpg'
-import thumbStyly from '../public/images/works/figma3.jpg'
+import thumbPersonalPTF from '../public/images/works/figma1.jpg'
+import thumbAthleticPTF from '../public/images/works/figma2.jpg'
+import thumbFitopenitup from '../public/images/works/figma3.jpg'
 import thumbKaiMobile from '../public/images/works/kai4.png'
 import thumbSignup from '../public/images/works/signup1.png'
 import thumbPyoseph from '../public/images/works/pyoseph1.png'
@@ -34,7 +35,7 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="halalhero" title="Halalhero" thumbnail={thumbInkdrop}>
+          <WorkGridItem id="halalhero" title="Halalhero" thumbnail={thumbHalalhero}>
           Daftarkan Sekarang Gratis, Sertifikat Halal untuk UMKM di Halalhero.id
           </WorkGridItem>
         </Section>
@@ -42,7 +43,7 @@ const Works = () => (
           <WorkGridItem
             id="urushalal"
             title="Urushalal"
-            thumbnail={thumbWalknote}
+            thumbnail={thumbUrushalal}
           >
             
           Daftarkan Sekarang Gratis, Sertifikat Halal untuk UMKM di urushalal.co
@@ -53,14 +54,14 @@ const Works = () => (
           <WorkGridItem
             id="karamelgroup"
             title="KaramelGroup"
-            thumbnail={thumbFourPainters}
+            thumbnail={thumbKaramel}
           >
             Kami merancang pengalaman digital yang bijaksana dan estetika merek yang indah
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem id="urusizin" thumbnail={thumbMenkiki} title="Urus Izin">
+          <WorkGridItem id="urusizin" thumbnail={thumbUrusizin} title="Urus Izin">
           Kami adalah solusi one-stop untuk membantu Anda mengatasi setiap tantangan dalam memperoleh izin usaha. 
           </WorkGridItem>
         </Section>
@@ -95,21 +96,21 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="personaldarkui" thumbnail={thumbMargelo} title="Personal Portfolio">
+          <WorkGridItem id="personaldarkui" thumbnail={thumbPersonalPTF} title="Personal Portfolio">
             Free to use, Personal portfolio website interface in Darkmode version 
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem
             id="athleticptf"
-            thumbnail={thumbModeTokyo}
+            thumbnail={thumbAthleticPTF}
             title="Athletic Portfolio"
           >
           Free to use, Athletic portfolio website interface in Soft version 
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="fitopenitup" thumbnail={thumbStyly} title="FitOpenitUp">
+          <WorkGridItem id="fitopenitup" thumbnail={thumbFitopenitup} title="FitOpenitUp">
           Web Interface that encourages users to participate in fitness challenges.
           </WorkGridItem>
         </Section>

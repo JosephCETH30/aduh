@@ -177,22 +177,15 @@ const Home = () => {
           </ListItem>
         </List>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          {/* <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
-            thumbnail={thumbYouTube}
-          >
-            My YouTube channel (&gt;150k subs)
-          </GridItem> */}
-          <GridItem
-            href="https://instagram.com/_yoseph28"
-            title="Pengiring alias Pianist"
-            thumbnail={thumbJuara1}
-          >
-            Juara 1 Hoki ini bang asli dah
-          </GridItem>
-        </SimpleGrid>
+        <Heading as="h3" variant="section-title">
+          Achievement
+        </Heading>
+
+        &nbsp; - Juara 1 Band se Jakarta Pusat (2018) <br></br>
+        &nbsp; - Pengiring Juara 1 Solo Vokal FLS2N Jakarta Pusat (2019) <br></br>
+        &nbsp; - Pengiring Juara 2 Solo Vokal FLS2N DKI Jakarta (2019) <br></br>
+        &nbsp; - Skilvul.com 7th Student in Leaderboard (2023) <br></br>
+        &nbsp; - Pengiring Juara 1 Vocal Group se Jakarta Pusat 2 (2023) <br></br>
 
         <Heading as="h3" variant="section-title">
           Contact Me
