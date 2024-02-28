@@ -4,7 +4,6 @@ import {
   Container,
   Heading,
   Box,
-  SimpleGrid,
   Button,
   List,
   ListItem,
@@ -16,9 +15,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
 import { IoLogoInstagram, IoLogoGithub, IoLogoMedium } from 'react-icons/io5'
-import thumbJuara1 from '../public/images/works/th1.jpg'
 import Image from 'next/image'
 
 const Home = () => {
@@ -185,7 +182,7 @@ const Home = () => {
         &nbsp; - Pengiring Juara 1 Solo Vokal FLS2N Jakarta Pusat (2019) <br></br>
         &nbsp; - Pengiring Juara 2 Solo Vokal FLS2N DKI Jakarta (2019) <br></br>
         &nbsp; - Skilvul.com 7th Student in Leaderboard (2023) <br></br>
-        &nbsp; - Pengiring Juara 1 Vocal Group se Jakarta Pusat 2 (2023) <br></br>
+        &nbsp; - Pengiring Juara 1 Vocal Group se Jakarta Pusat 2 (2023) <br></br><br></br>
 
         <Heading as="h3" variant="section-title">
           Contact Me
