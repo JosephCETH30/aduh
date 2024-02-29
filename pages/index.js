@@ -46,7 +46,7 @@ const Home = () => {
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hi, I&apos;m an UX Designer Based in Jakarta, Indonesia 
+        Hi, I&apos;m an UI/UX Designer Based in Jakarta, Indonesia 
 
       </Box>
 
@@ -178,7 +178,6 @@ const Home = () => {
           Achievement
         </Heading>
 
-        &nbsp; - Juara 1 Lomba Band sebagai Pianist Tingkat SMP Sederajat (2018) <br></br>
         &nbsp; - Pengiring Juara 1 Solo Vokal FLS2N Jakarta Pusat (2019) <br></br>
         &nbsp; - Pengiring Juara 2 Solo Vokal FLS2N DKI Jakarta (2019) <br></br>
         &nbsp; - Skilvul.com 6th Student in Leaderboard (2022 - 2023) <br></br>
