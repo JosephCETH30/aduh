@@ -83,6 +83,9 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
+          <LinkItem href="/CVJoseph" path={path}>
+            My CV
+          </LinkItem>
           <LinkItem href="/freemirrorgame" path={path}>Game</LinkItem>
           <LinkItem
             target="_blank"
