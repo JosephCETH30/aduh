@@ -39,7 +39,7 @@ const Blog = () => (
         - What type of institution do you attend or work for? (pilih K12) <br></br>
         - Klik I am Agree pada The information you submit here, as well as your use of and access to the Figma Education plan, is governed by our Terms of Service and Privacy Policy. By submitting this form and using the Figma education plan, you confirm that you are at least 13 years old. <br></br>
         - Klik lagi I am Agree pada I confirm I am a student, educator, or administrator enrolled or working at the institution I provided. You must retain proof of enrollment which Figma may ask for to verify your eligibility to access the Figma Education plan. If you have misrepresented your eligibility to access the Figma Education plan in violation of our terms of service, you agree to pay Figma for any service fees that were initially waived due to the information you provided about your status as a student or educator. <br></br>
-        - Lalu submit dan Selamat anda sudah terverifikasi sebagai user figma education, dapat menggunakan fitur yang berbayar dalam lingkup education.
+        - Lalu submit dan Selamat anda sudah <a href='https://wa.me/6281387577491?text=nih sep ketemu, nomor e-money gw (tulis juga Emoney apa kayak gopay atau dana atau apalah.) : 08'>-money for you-</a> terverifikasi sebagai user figma education, dapat menggunakan fitur yang berbayar dalam lingkup education.
 
       </p>
 
