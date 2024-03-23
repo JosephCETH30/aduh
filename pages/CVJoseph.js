@@ -14,7 +14,7 @@ const DownloadCV = () => {
           const filePath = '/images/works/CVJOSEPH.pdf';
           const link = document.createElement('a');
           link.href = filePath;
-          link.download = 'CVJoseph.doc';
+          link.download = 'CVJoseph.pdf';
           document.body.appendChild(link);
           link.click();
           setFileDownloaded(true);

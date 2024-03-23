@@ -19,7 +19,6 @@ import thumbPyoseph from '../public/images/works/pyoseph1.png'
 import thumbKominfas from '../public/images/works/kominfas1.png'
 import thumbGlossy from '../public/images/works/glossy1.png'
 import thumbReciperack from '../public/images/works/reciperacksthumb1.png'
-import thumbAeproject1 from '../public/images/works/pspo1.png'
 import thumbStudyinaltos from '../public/images/works/studyinaltos.png'
 import thumb2athletic from '../public/images/works/2athleticptf.png'
 import thumbCryptoApp from '../public/images/works/CrpyptoProx.png'
@@ -28,6 +27,10 @@ import thumbTeslaonepage from '../public/images/works/teslaonepage1.png'
 
 // Mobile App Portfolio
 import thumbTabobmaintenance from '../public/images/works/tabobmt.jpg'
+
+// AE & Editing Portfolio
+import thumbAeproject1 from '../public/images/works/Fitopenitupthumb.png'
+import thumbAeproject2 from '../public/images/works/deseogourmet.png'
 
 
 const Works = () => (
@@ -221,6 +224,13 @@ const Works = () => (
 
 
 
+
+
+
+
+
+
+
 {/* Motion Graphic */}
       <Section delay={0.4}>
         <Divider my={6} />
@@ -238,7 +248,7 @@ const Works = () => (
         </Section>
 
         <Section delay={0.5}>
-          <WorkGridItem id="deseogourmet-mg" thumbnail={thumbAeproject1} title="DeseoGourmet Animation">
+          <WorkGridItem id="deseogourmet-mg" thumbnail={thumbAeproject2} title="DeseoGourmet Animation">
             Fitopenitup Spoiler in AE (After Effect)
           </WorkGridItem>
         </Section>
