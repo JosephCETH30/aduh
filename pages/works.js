@@ -30,7 +30,7 @@ import thumbTabobmaintenance from '../public/images/works/tabobmt.jpg'
 
 // AE & Editing Portfolio
 import thumbAeproject1 from '../public/images/works/Fitopenitupthumb.png'
-import thumbAeproject2 from '../public/images/works/deseogourmet.png'
+import thumbAeproject2 from '../public/images/works/deseogourme.png'
 
 
 const Works = () => (
@@ -63,7 +63,7 @@ const Works = () => (
             title="KaramelGroup"
             thumbnail={thumbKaramel}
           >
-            Kami merancang pengalaman digital yang bijaksana dan estetika merek yang indah
+            Kami Merancang Pelayanan Pemasaran Digital yang Sempurna untuk anda sekalian 
           </WorkGridItem>
         </Section>
 
