@@ -87,18 +87,7 @@ const Navbar = props => {
             My CV
           </LinkItem>
           <LinkItem href="/freemirrorgame" path={path}>Game</LinkItem>
-          <LinkItem
-            target="_blank"
-            href="https://github.com/JosephCETH30"
-            path={path}
-            display="inline-flex"
-            alignItems="center"
-            style={{ gap: 4 }}
-            pl={2}
-          >
-            <IoLogoGithub />
-            My Github
-          </LinkItem>
+          
         </Stack>
 
         <Box flex={1} align="right">
@@ -125,12 +114,6 @@ const Navbar = props => {
                 <LinkItem href="/CVJoseph" path={path}>My CV</LinkItem>
                 <MenuItem as={MenuLink} href="/freemirrorgame">
                   Game
-                </MenuItem>
-                <MenuItem
-                  as={Link}
-                  href="https://github.com/JosephCETH30"
-                >
-                  My Github
                 </MenuItem>
               </MenuList>
             </Menu>

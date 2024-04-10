@@ -30,7 +30,7 @@ import thumbTabobmaintenance from '../public/images/works/tabobmt.jpg'
 
 // AE & Editing Portfolio
 import thumbAeproject1 from '../public/images/works/Fitopenitupthumb.png'
-import thumbAeproject2 from '../public/images/works/deseogourme.png'
+import thumbAeproject2 from '../public/images/works/deseogourmet.png'
 
 
 const Works = () => (

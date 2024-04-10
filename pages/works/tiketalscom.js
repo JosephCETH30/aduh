@@ -39,7 +39,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Blogspot</Meta>
-          <Link href="#">
+          <Link href="https://blog.pyoseph.tech/2024/article-1-UXDesign">
            I dont even understand these kind of UX Design , how to redesign it for me lmao<ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
