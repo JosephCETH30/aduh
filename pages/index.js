@@ -88,7 +88,7 @@ const Home = () => {
           About Me
         </Heading>
         <Paragraph>
-        Aspiring to transition from academia to higher education, I bring over a year of hands-on experience in UI/UX design and front-end web development. With a solid foundation from a six-month internship at Karamel Education East Jakarta, I've honed my skills and passion for crafting intuitive and visually appealing user experiences. Proficient in industry-standard tools and methodologies, I thrive in leveraging design thinking to solve complex problems and deliver impactful solutions. Committed to continuous learning and innovation, I eagerly anticipate contributing my expertise to dynamic teams focused on driving user-centric innovation.
+        Aspiring to transition from academia to higher education, I bring over a year of hands-on experience in UI/UX design and front-end web development. With a solid foundation from a six-month internship at Karamel Education East Jakarta, Ive honed my skills and passion for crafting intuitive and visually appealing user experiences. Proficient in industry-standard tools and methodologies, I thrive in leveraging design thinking to solve complex problems and deliver impactful solutions. Committed to continuous learning and innovation, I eagerly anticipate contributing my expertise to dynamic teams focused on driving user-centric innovation.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
