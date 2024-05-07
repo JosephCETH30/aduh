@@ -48,6 +48,16 @@ const Posts = () => (
             thumbnail={thumbXamppupload}
             href="/blog/php-xampp-cara-buka-easc"
           />
+          <GridItem
+            title="Cara Mudah membuka File PHP menggunakan XAMPP metode Localhost + Free file untuk ujicoba."
+            thumbnail={thumbXamppupload}
+            href="/blog/php-xampp-cara-buka-easc"
+          />
+          <GridItem
+            title="Cara Mudah membuka File PHP menggunakan XAMPP metode Localhost + Free file untuk ujicoba."
+            thumbnail={thumbXamppupload}
+            href="/blog/php-xampp-cara-buka-easc"
+          />
           
         </SimpleGrid>
       </Section>

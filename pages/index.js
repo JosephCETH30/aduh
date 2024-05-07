@@ -55,7 +55,7 @@ const Home = () => {
           <Heading as="h2" variant="page-title">
             Yosef Rafael Bonar Clinton R.
           </Heading>
-          <p>Tech & NBA Enthusiast (J30, Y9, J18, DubNation)</p>
+          <p>Tech & NBA Enthusiast (DubNation)</p>
         </Box>
         <Box
           flexShrink={0}
@@ -113,7 +113,7 @@ const Home = () => {
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Start Building Pyoseph Network as self Projects 
+          Mulai kenal Koding dan UI/UX
         </BioSection>
         <BioSection>
           <BioYear>2023</BioYear>
@@ -121,7 +121,7 @@ const Home = () => {
         </BioSection>
         <BioSection>
           <BioYear>2028</BioYear>
-          I hope i can work in google soon
+          I hope i can work in google soon. xdd
         </BioSection>
       </Section>
 
@@ -130,7 +130,7 @@ const Home = () => {
           Id like to
         </Heading>
         <Paragraph>
-          Designing UI/UX, Playing Piano, Guitar, Bass, Drum, Basketball PG player, Volleyball as a Setter, Chruch Multimedia.
+          Designing UI/UX, Playing Piano, Guitar, Bass, Basketball PG player, Volleyball as a Setter, Chruch Multimedia.
         </Paragraph>
       </Section>
 

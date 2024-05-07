@@ -92,45 +92,45 @@ const Works = () => (
 
 
 {/* FIGMA */}
-      <Section delay={0.2}>
-        <Divider my={6} />
+        <Section delay={0.2}>
+          <Divider my={6} />
 
 
-        <Heading as="h3" fontSize={20} mb={4}>
-          UI/UX Design
-        </Heading>
-      </Section>
+          <Heading as="h3" fontSize={20} mb={4}>
+            UI/UX Design
+          </Heading>
+        </Section>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.3}>
-          <WorkGridItem id="personaldarkui" thumbnail={thumbPersonalPTF} title="Personal Portfolio">
-            Free to use, Personal portfolio website interface in Darkmode version 
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.3}>
-          <WorkGridItem
-            id="athleticptf"
-            thumbnail={thumbAthleticPTF}
-            title="Athletic Portfolio"
-          >
-          Free to use, Athletic portfolio website interface in Soft version 
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.3}>
-          <WorkGridItem id="fitopenitup" thumbnail={thumbFitopenitup} title="FitOpenitUp">
-          Web Interface that encourages users to participate in fitness challenges.
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.3}>
-          <WorkGridItem id="kairedesign" thumbnail={thumbKaiMobile} title="KAI Mobile Redesign">
-          its just self-project but if you want to see this project just click on it
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.3}>
-          <WorkGridItem id="signuplogin" thumbnail={thumbSignup} title="Signup Login Page">
-          Web Interface that encourages users to Signup and Login.
-          </WorkGridItem>
-        </Section>
+        <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section delay={0.3}>
+            <WorkGridItem id="personaldarkui" thumbnail={thumbPersonalPTF} title="Personal Portfolio">
+              Free to use, Personal portfolio website interface in Darkmode version 
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.3}>
+            <WorkGridItem
+              id="athleticptf"
+              thumbnail={thumbAthleticPTF}
+              title="Athletic Portfolio"
+            >
+            Free to use, Athletic portfolio website interface in Soft version 
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.3}>
+            <WorkGridItem id="fitopenitup" thumbnail={thumbFitopenitup} title="FitOpenitUp">
+            Web Interface that encourages users to participate in fitness challenges.
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.3}>
+            <WorkGridItem id="kairedesign" thumbnail={thumbKaiMobile} title="KAI Mobile Redesign">
+            its just self-project but if you want to see this project just click on it
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.3}>
+            <WorkGridItem id="signuplogin" thumbnail={thumbSignup} title="Signup Login Page">
+            Web Interface that encourages users to Signup and Login.
+            </WorkGridItem>
+          </Section>
         <Section delay={0.3}>
           <WorkGridItem id="simpleptf" thumbnail={thumbPyoseph} title="Simple Portfolio">
           Web Interface that encourages users to show up their works
@@ -145,7 +145,7 @@ const Works = () => (
           <WorkGridItem id="glossyptf" thumbnail={thumbGlossy} title="Glossy website">
           Free to use, Glossy portfolio website i create this bcs of something
           </WorkGridItem>
-        </Section>
+        </Section> 
         <Section delay={0.3}>
           <WorkGridItem id="reciperack" thumbnail={thumbReciperack} title="Recipe Racks">
           Free for Personal use, reciperack platform for organizing and discovering recipes
