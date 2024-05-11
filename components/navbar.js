@@ -82,10 +82,10 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
-          <LinkItem href="/CVJoseph" path={path}>
-            My CV
-          </LinkItem>
-          <LinkItem href="/freemirrorgame" path={path}>Game</LinkItem>
+          <LinkItem href="/CVJoseph" path={path}>My CV</LinkItem>
+          <LinkItem as={MenuLink} href="https://loker.pyoseph.tech">
+                  Panel Loker
+                </LinkItem>
           
         </Stack>
 
@@ -110,9 +110,11 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/posts">
                   Posts
                 </MenuItem>
-                <LinkItem href="/CVJoseph" path={path}>My CV</LinkItem>
-                <MenuItem as={MenuLink} href="/freemirrorgame">
-                  Game
+                <MenuItem as={MenuLink} href="/CVJoseph">
+                  Download My CV
+                </MenuItem>
+                <MenuItem as={MenuLink} href="/posts">
+                  Panel Loker
                 </MenuItem>
               </MenuList>
             </Menu>

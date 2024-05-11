@@ -194,7 +194,7 @@ const Home = () => {
         &nbsp; - Pengiring Juara 1 Vocal Group Tingkat SMK Sederajat se Jakarta Pusat 2 (2023) <br></br><br></br>
 
         <Heading as="h3" variant="section-title">
-          Contact Me
+          Contact Me 
         </Heading>
         <p>
           Feel free to ask me about something or for something, i wish i can do my best for ya!
