@@ -45,7 +45,8 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/covercalmora.png" alt="als web tiket" />
+      <WorkImage src="/images/works/covercalmora.png" alt="Calmora Thumbnail Design" />
+      <WorkImage src="/images/works/covercalmora2.png" alt="Calmora Design" />
 
       <AspectRatio maxW="auto" ratio={1.7} my={4}>
       <iframe
