@@ -178,7 +178,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="teslaonepage" thumbnail={thumbCalmoraMentalhealthApp} title="Calmora App Interface">
+          <WorkGridItem id="calmoramentalhealthapp" thumbnail={thumbCalmoraMentalhealthApp} title="Calmora App Interface">
            Latihan doang bang, Manusia pasti ada salah. Have fun!
           </WorkGridItem>
         </Section>
