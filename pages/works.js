@@ -24,6 +24,7 @@ import thumb2athletic from '../public/images/works/2athleticptf.png'
 import thumbCryptoApp from '../public/images/works/CrpyptoProx.png'
 import thumbTiketALS from '../public/images/works/travel1web.png'
 import thumbTeslaonepage from '../public/images/works/teslaonepage1.png'
+import thumbCalmoraMentalhealthApp from '../public/images/works/covercalmora.png'
 
 // Mobile App Portfolio
 import thumbTabobmaintenance from '../public/images/works/tabobmt.jpg'
@@ -174,6 +175,11 @@ const Works = () => (
         <Section delay={0.3}>
           <WorkGridItem id="teslaonepage" thumbnail={thumbTeslaonepage} title="TESLA ONEPAGE Site">
            Buat nambah ilmu sekalian latihan aja, ini fullpage jadi onepage ya
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="teslaonepage" thumbnail={thumbCalmoraMentalhealthApp} title="Calmora App Interface">
+           Latihan doang bang, Manusia pasti ada salah. Have fun!
           </WorkGridItem>
         </Section>
       </SimpleGrid>
