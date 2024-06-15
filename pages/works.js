@@ -11,19 +11,19 @@ import thumbUrusizin from '../public/images/works/urusizin.jpg'
 
 // UI Portfolio
 import thumbPersonalPTF from '../public/images/works/figma1.jpg'
-import thumbAthleticPTF from '../public/images/works/figma2.jpg'
+// import thumbAthleticPTF from '../public/images/works/figma2.jpg'
 import thumbFitopenitup from '../public/images/works/figma3.jpg'
 import thumbKaiMobile from '../public/images/works/kai4.png'
-import thumbSignup from '../public/images/works/signup1.png'
+// import thumbSignup from '../public/images/works/signup1.png'
 import thumbPyoseph from '../public/images/works/pyoseph1.png'
 import thumbKominfas from '../public/images/works/kominfas1.png'
-import thumbGlossy from '../public/images/works/glossy1.png'
+// import thumbGlossy from '../public/images/works/glossy1.png'
 import thumbReciperack from '../public/images/works/reciperacksthumb1.png'
 import thumbStudyinaltos from '../public/images/works/studyinaltos.png'
-import thumb2athletic from '../public/images/works/2athleticptf.png'
+// import thumb2athletic from '../public/images/works/2athleticptf.png'
 import thumbCryptoApp from '../public/images/works/CrpyptoProx.png'
-import thumbTiketALS from '../public/images/works/travel1web.png'
-import thumbTeslaonepage from '../public/images/works/teslaonepage1.png'
+// import thumbTiketALS from '../public/images/works/travel1web.png'
+// import thumbTeslaonepage from '../public/images/works/teslaonepage1.png'
 import thumbCalmoraMentalhealthApp from '../public/images/works/covercalmora.png'
 
 // Mobile App Portfolio
@@ -108,7 +108,7 @@ const Works = () => (
               Free to use, Personal portfolio website interface in Darkmode version 
             </WorkGridItem>
           </Section>
-          <Section delay={0.3}>
+          {/* <Section delay={0.3}>
             <WorkGridItem
               id="athleticptf"
               thumbnail={thumbAthleticPTF}
@@ -116,7 +116,7 @@ const Works = () => (
             >
             Free to use, Athletic portfolio website interface in Soft version 
             </WorkGridItem>
-          </Section>
+          </Section> */}
           <Section delay={0.3}>
             <WorkGridItem id="fitopenitup" thumbnail={thumbFitopenitup} title="FitOpenitUp">
             Web Interface that encourages users to participate in fitness challenges.
@@ -127,11 +127,11 @@ const Works = () => (
             its just self-project but if you want to see this project just click on it
             </WorkGridItem>
           </Section>
-          <Section delay={0.3}>
+          {/* <Section delay={0.3}>
             <WorkGridItem id="signuplogin" thumbnail={thumbSignup} title="Signup Login Page">
             Web Interface that encourages users to Signup and Login.
             </WorkGridItem>
-          </Section>
+          </Section> */}
         <Section delay={0.3}>
           <WorkGridItem id="simpleptf" thumbnail={thumbPyoseph} title="Simple Portfolio">
           Web Interface that encourages users to show up their works
@@ -142,11 +142,11 @@ const Works = () => (
           Web Interface that encourages users to access kominfas information
           </WorkGridItem>
         </Section>
-        <Section delay={0.3}>
+        {/* <Section delay={0.3}>
           <WorkGridItem id="glossyptf" thumbnail={thumbGlossy} title="Glossy website">
           Free to use, Glossy portfolio website i create this bcs of something
           </WorkGridItem>
-        </Section> 
+        </Section>  */}
         <Section delay={0.3}>
           <WorkGridItem id="reciperack" thumbnail={thumbReciperack} title="Recipe Racks">
           Free for Personal use, reciperack platform for organizing and discovering recipes
@@ -157,26 +157,26 @@ const Works = () => (
           The primary goal is to make education accessible to a diverse audience (Paid File)
           </WorkGridItem>
         </Section>
-        <Section delay={0.3}>
+        {/* <Section delay={0.3}>
           <WorkGridItem id="2athletic" thumbnail={thumb2athletic} title="&quot;2&quot; Athletic Portfolio">
           You can use this as design preference for your portfolio for free!
           </WorkGridItem>
-        </Section>
+        </Section> */}
         <Section delay={0.3}>
           <WorkGridItem id="CryptoProX" thumbnail={thumbCryptoApp} title="CryptoProX">
           In the future there is full of Blockchain tech, thats primary reason why i create this UI (Paid File)
           </WorkGridItem>
         </Section>
-        <Section delay={0.3}>
+        {/* <Section delay={0.3}>
           <WorkGridItem id="tiketalscom" thumbnail={thumbTiketALS} title="Tiket ALS UI">
           TIKET ALS - Pembelian tiket bis antar lintas sumatera secara online
           </WorkGridItem>
-        </Section>
-        <Section delay={0.3}>
+        </Section> */}
+        {/* <Section delay={0.3}>
           <WorkGridItem id="teslaonepage" thumbnail={thumbTeslaonepage} title="TESLA ONEPAGE Site">
            Buat nambah ilmu sekalian latihan aja, ini fullpage jadi onepage ya
           </WorkGridItem>
-        </Section>
+        </Section> */}
         <Section delay={0.3}>
           <WorkGridItem id="calmoramentalhealthapp" thumbnail={thumbCalmoraMentalhealthApp} title="Calmora App Interface">
            Latihan doang bang, Manusia pasti ada salah. Have fun!

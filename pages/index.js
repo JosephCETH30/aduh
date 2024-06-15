@@ -88,7 +88,8 @@ const Home = () => {
           About Me
         </Heading>
         <Paragraph>
-        Aspiring to transition from academia to higher education, I bring over a year of hands-on experience in UI/UX design and front-end web development. With a solid foundation from a six-month internship at Karamel Education East Jakarta, Ive honed my skills and passion for crafting intuitive and visually appealing user experiences. Proficient in industry-standard tools and methodologies, I thrive in leveraging design thinking to solve complex problems and deliver impactful solutions. Committed to continuous learning and innovation, I eagerly anticipate contributing my expertise to dynamic teams focused on driving user-centric innovation.
+        Hello!, Im a young UI/UX Designer. Aspiring to transition from academia to higher education, I've honed my skills and passion for crafting intuitive and visually appealing user experiences. Proficient in industry-standard tools and methodologies, I thrive in leveraging design thinking to solve complex problems and deliver impactful solutions. Committed to continuous learning and innovation, I eagerly anticipate contributing my expertise to dynamic teams focused on driving user-centric innovation.
+
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -105,11 +106,11 @@ const Home = () => {
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Bio
+          Timeline
         </Heading>
         <BioSection>
-          <BioYear>2006</BioYear>
-          Born in Jakarta, Indonesia
+          <BioYear>2018</BioYear>
+          Mulai Jadi tim Multimedia di Gereja
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
@@ -120,7 +121,7 @@ const Home = () => {
           6 Month Intern Web developer at KCDI
         </BioSection>
         <BioSection>
-          <BioYear>2028</BioYear>
+          <BioYear>2035</BioYear>
           I hope i can work in google soon. xdd
         </BioSection>
       </Section>
@@ -130,7 +131,7 @@ const Home = () => {
           Id like to
         </Heading>
         <Paragraph>
-          Designing UI/UX, Playing Piano, Guitar, Bass, Basketball PG player, Volleyball as a Setter, Chruch Multimedia.
+          Designing UI/UX, Playing Piano, Guitar, Bass, Watching NBA, Volleyball as a Setter.
         </Paragraph>
       </Section>
 

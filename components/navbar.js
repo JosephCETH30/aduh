@@ -83,10 +83,10 @@ const Navbar = props => {
             Posts
           </LinkItem>
           <LinkItem href="/CVJoseph" path={path}>My CV</LinkItem>
-          <LinkItem as={MenuLink} href="https://loker.pyoseph.tech">
-                  Panel Loker
-                </LinkItem>
-          
+          <LinkItem as={MenuLink} href="mailto:yoseph@skiff.com">
+            Contact Me
+          </LinkItem>
+
         </Stack>
 
         <Box flex={1} align="right">
@@ -111,10 +111,10 @@ const Navbar = props => {
                   Posts
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/CVJoseph">
-                  Download My CV
+                  My CV
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/posts">
-                  Panel Loker
+                <MenuItem as={MenuLink} href="mailto:yoseph@skiff.com">
+                  Contact Me
                 </MenuItem>
               </MenuList>
             </Menu>

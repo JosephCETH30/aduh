@@ -6,7 +6,6 @@ import { GridItem } from '../components/grid-item'
 import thumbWarriors from '../public/images/contents/netlifypost-warriors.png'
 import thumbFigmaberbayar from '../public/images/contents/netlifypost-figma-edu.png'
 import thumbNetlifyUpload from '../public/images/contents/netlifypost-upload-web.jpg'
-import thumbKPUPemilu2024 from '../public/images/contents/netlifypost-kpu-realcount.png'
 import thumbBassGuitar from '../public/images/contents/netlifypost-bassor-gitar.png'
 import thumbXamppupload from '../public/images/contents/netlifypost-xamppopen.png'
 const Posts = () => (
@@ -33,11 +32,7 @@ const Posts = () => (
             thumbnail={thumbNetlifyUpload}
             href="/blog/cara-upload-website-netlify-easc"
           />
-          <GridItem
-            title="Bagaimana Cara cek Hasil Real KPU pemilu 2024 ini?"
-            thumbnail={thumbKPUPemilu2024}
-            href="/blog/cek-hasil-realcount-kpu-pemilu-2024-easc"
-          />
+          
           <GridItem
             title="Apakah cara Main bass sama dengan main gitar? + bagaimana cara Memetik bass dengan benar"
             thumbnail={thumbBassGuitar}
