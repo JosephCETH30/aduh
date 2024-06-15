@@ -74,7 +74,7 @@ const Home = () => {
             overflow="hidden"
           >
             <Image
-              src="/images/yoseph.jpg"
+              src="/images/newpfp.jpeg"
               alt="Profile image"
               width="100"
               height="100"
@@ -88,7 +88,7 @@ const Home = () => {
           About Me
         </Heading>
         <Paragraph>
-        Hello!, Im a young UI/UX Designer. Aspiring to transition from academia to higher education, I've honed my skills and passion for crafting intuitive and visually appealing user experiences. Proficient in industry-standard tools and methodologies, I thrive in leveraging design thinking to solve complex problems and deliver impactful solutions. Committed to continuous learning and innovation, I eagerly anticipate contributing my expertise to dynamic teams focused on driving user-centric innovation.
+        Hello!, Im a young UI/UX Designer. Aspiring to transition from academia to higher education, I&apos;ve honed my skills and passion for crafting intuitive and visually appealing user experiences. Proficient in industry-standard tools and methodologies, I thrive in leveraging design thinking to solve complex problems and deliver impactful solutions. Committed to continuous learning and innovation, I eagerly anticipate contributing my expertise to dynamic teams focused on driving user-centric innovation.
 
         </Paragraph>
         <Box align="center" my={4}>
