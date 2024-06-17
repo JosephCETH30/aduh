@@ -11,7 +11,7 @@ const DownloadCV = () => {
     const downloadFile = async () => {
       if (!isFileDownloaded) {
         try {
-          const filePath = '/images/works/CVJOSEPH.pdf';
+          const filePath = '/images/works/CVJOSEPHNEW.pdf';
           const link = document.createElement('a');
           link.href = filePath;
           link.download = 'CVJoseph.pdf';
