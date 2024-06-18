@@ -7,7 +7,7 @@ import {
   AspectRatio
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title, WorkImage, Meta, Case } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -49,7 +49,10 @@ const Work = () => (
       </List>
 
       <WorkImage src="/images/works/halalhero.jpg" alt="Halalhero" />
+      <Case>The Reason</Case>
+      <p>Website ini dibuat untuk Memberikan Informasi mengenai Halalhero.id agar user percaya bahwa penyelia halal yang satu ini adalah Real. Dan sekarang Halalhero.id (2024) sudah memiliki Kantor sendiri dan Terafiliasi oleh Universitas Ibnu Chaldun. Kantor tersebut terletak di Jl. Pemuda 1 No.Kav.97, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220. </p><br></br>
       <WorkImage src="/images/works/halalhero2.jpg" alt="Halalhero" />
+      <p>Halalhero.id sudah diverifikasi oleh bpjph dan PTSP Halal yang berarti Penyelia Halal satu ini adalah Real dan Bukan scam, tapi ada yang mau menyaingi kita secara sengit yaitu RHN. Mari kita Para Pedagang atau penggiat usaha bilamana membutuhkan Sertifikat Halal yang Legit bisa Hubungi Halalhero di Instagramnya @halalhero.id</p>
       <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
           src="https://player.vimeo.com/video/909703105?h=e54cd8aeb9"

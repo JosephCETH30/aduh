@@ -104,7 +104,7 @@ const Works = () => (
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.3}>
-            <WorkGridItem id="personaldarkui" thumbnail={thumbPersonalPTF} title="Personal Portfolio">
+            <WorkGridItem id="personaldarkui" thumbnail={thumbPersonalPTF} title="Landing Page Portfolio">
               Free to use, Personal portfolio website interface in Darkmode version 
             </WorkGridItem>
           </Section>

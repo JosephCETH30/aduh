@@ -60,7 +60,7 @@ const Work = () => (
 
 
       </AspectRatio>
-      <WorkImage src="/images/works/reciperacksthumb3.png" alt="recipe rack" />
+      {/* <WorkImage src="/images/works/reciperacksthumb3.png" alt="recipe rack" /> */}
       <WorkImage src="/images/works/reciperacksthumb4.png" alt="recipe rack" />
       
     </Container>

@@ -7,7 +7,7 @@ import {
   AspectRatio
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title, Case, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -50,6 +50,8 @@ const Work = () => (
       </List>
 
       <WorkImage src="/images/works/urushalal.jpg" alt="Halalhero" />
+      <Case>The Reason</Case>
+      <p>Website ini dibuat untuk Memberikan Informasi mengenai Urushalal.co (Notes : Website ini hanyalah mirror site daripada Halalhero.id) agar user percaya bahwa penyelia halal yang satu ini adalah Real. Dan sekarang Halalhero.id (2024) sudah memiliki Kantor sendiri dan Terafiliasi oleh Universitas Ibnu Chaldun. Kantor tersebut terletak di Jl. Pemuda 1 No.Kav.97, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220. </p><br></br>
       <WorkImage src="/images/works/halalhero2.jpg" alt="Halalhero" />
       <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe

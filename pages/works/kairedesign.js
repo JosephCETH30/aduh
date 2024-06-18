@@ -18,7 +18,7 @@ const Work = () => (
         KAI Redesign Interface Mobile - Desktop  <Badge>2023 - 2024</Badge>
       </Title>
       <P>
-      This Figma project presents a dynamic and engaging interface designed specifically for athletic portfolios. The interface is meticulously crafted to showcase the skills, achievements, and personality of athletes in a visually compelling manner. With a focus on energetic design elements, sleek layouts, and vibrant color schemes, this portfolio interface aims to capture the essence of athleticism and excellence. Whether its for professional athletes or sports enthusiasts, the design emphasizes a seamless and user-friendly experience, ensuring that the portfolio effectively communicates the individuals prowess and dedication to their athletic journey.
+      Desain ini dibuat untuk melatih skill ui/ux design saya agar dapat berkembang lebih jauh. Mohon maaf jika ada kesalahan, soon there is will be a study case about this project but not too much i think. Have a good one!
       </P>
 
       <List ml={4} my={4}>

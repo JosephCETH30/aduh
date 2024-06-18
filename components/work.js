@@ -16,6 +16,13 @@ export const Title = ({ children }) => (
     </Heading>
   </Box>
 )
+export const Case = ({ children }) => (
+  <Box>
+    <Heading display="inline-block" as="h2" fontSize={25} mb={2}>
+      {children}
+    </Heading>
+  </Box>
+)
 
 export const WorkImage = ({ src, alt }) => (
   <Image borderRadius="lg" w="full" src={src} alt={alt} mb={4} />

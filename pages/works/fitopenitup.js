@@ -18,7 +18,7 @@ const Work = () => (
         Fit Open it Up Interface  <Badge>2024</Badge>
       </Title>
       <P>
-      This Figma project presents a dynamic and engaging interface designed specifically for athletic portfolios. The interface is meticulously crafted to showcase the skills, achievements, and personality of athletes in a visually compelling manner. With a focus on energetic design elements, sleek layouts, and vibrant color schemes, this portfolio interface aims to capture the essence of athleticism and excellence. Whether its for professional athletes or sports enthusiasts, the design emphasizes a seamless and user-friendly experience, ensuring that the portfolio effectively communicates the individuals prowess and dedication to their athletic journey.
+      Fit Open it Up Interface a modern and intuitive UI/UX design crafted to revolutionize your gym experience. Our design philosophy centers around simplicity, engagement, and motivation, making it easier for users to achieve their fitness goals.
       </P>
 
       <List ml={4} my={4}>

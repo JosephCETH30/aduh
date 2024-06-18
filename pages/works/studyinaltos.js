@@ -24,8 +24,8 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
           <span>
-            <Link href="https://www.buymeacoffee.com/yoseph_ux/elearning-studyin-altos-figma-file" target="_blank">
-              Buy Figma File. <ExternalLinkIcon mx="2px" />
+            <Link href="#soon">
+              Figma File. <ExternalLinkIcon mx="2px" />
             </Link>
           </span>
         </ListItem>
@@ -45,7 +45,7 @@ const Work = () => (
 
       <WorkImage src="/images/works/studyinaltos.png" alt="Studyin Altos" />
       <WorkImage src="/images/works/studyinaltos2.png" alt="Studyin Altos" />
-      <WorkImage src="/images/works/studyinaltos3.png" alt="Studyin Altos" />
+      {/* <WorkImage src="/images/works/studyinaltos3.png" alt="Studyin Altos" /> */}
       {/* <AspectRatio maxW="630px" ratio={1.7} my={4}>
       <iframe
         src="/images/works/video1reciperack.mp4"
