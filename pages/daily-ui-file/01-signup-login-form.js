@@ -31,7 +31,7 @@ const Blog = () => (
       <p>i mean which one better, how about we remove those annoying blobs behind the contents, like this lol</p><br></br>
       <WorkImage src="/images/works/LoginPage2.jpg" alt="results-001-04" />
       <p>how it looks now, i mean nothing happened. k sorry thx</p><br></br>
-      <WorkImage src="/images/works/fatfontsignup3.jpg" />
+      <WorkImage src="/images/works/signup3.jpg" />
       <p>anyway i got no flawless english here hablo inglese is hard, thx for visiting my website. have a good day</p>
       <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
