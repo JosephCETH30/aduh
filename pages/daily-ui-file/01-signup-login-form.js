@@ -28,7 +28,7 @@ const Blog = () => (
       <WorkImage src="https://i.ibb.co.com/cb22zKJ/WFexplain.jpg" alt="wireframe-001-02" />
       <p>Type 1 in the chat if you want to see the result, dont expect to high about the results lol, k here we go. i told u dont expect too high still day 1 need sleep too.</p><br></br>
       <WorkImage src="https://i.ibb.co.com/kKkz0Wc/Signup-Page-Single-Page-only.jpg" alt="results-001-03" />
-      <p>i mean which one better, how about we remove those annoying blobs behind the contents, like this lol</p><br></br>
+      <p>i mean which one is better, how about we remove those annoying blobs behind the contents, like this lol</p><br></br>
       <WorkImage src="https://i.ibb.co.com/VNPYyvk/Signup-Page-Single-Page-only-2.jpg" alt="results-001-04" />
       <p>how it looks now, i mean nothing happened. k sorry thx</p><br></br>
       <WorkImage src="https://i.ibb.co.com/fMmKRGC/Signup-Page-Single-Page-only-3.jpg" alt="results-001-05" />
