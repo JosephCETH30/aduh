@@ -79,11 +79,11 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
+          <LinkItem href="/dailyui" path={path}>
+            Daily UI
           </LinkItem>
           <LinkItem href="/CVJoseph" path={path}>My CV</LinkItem>
-          <LinkItem as={MenuLink} href="mailto:yoseph@skiff.com">
+          <LinkItem path={path} href="mailto:yoseph@skiff.com">
             Contact Me
           </LinkItem>
 

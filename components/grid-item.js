@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
 
+// GridItem component
 export const GridItem = ({ children, href, title, thumbnail }) => (
   <Box w="100%" textAlign="center">
     <LinkBox cursor="pointer">
@@ -21,6 +22,7 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
   </Box>
 )
 
+// WorkGridItem component
 export const WorkGridItem = ({
   children,
   category = 'works',
@@ -42,6 +44,55 @@ export const WorkGridItem = ({
         placeholder="blur"
       />
       <LinkOverlay as="div" href={`/${category}/${id}`}>
+        <Text mt={2} fontSize={20}>
+          {title}
+        </Text>
+      </LinkOverlay>
+      <Text fontSize={14}>{children}</Text>
+    </LinkBox>
+  </Box>
+)
+
+// New component to handle both categories
+export const DualCategoryGridItem = ({
+  children,
+  id,
+  title,
+  thumbnail
+}) => (
+  <Box w="100%" textAlign="center">
+    <LinkBox
+      as={NextLink}
+      href={`/dailyuichallenge/${id}`}
+      scroll={false}
+      cursor="pointer"
+    >
+      <Image
+        src={thumbnail}
+        alt={title}
+        className="grid-item-thumbnail"
+        placeholder="blur"
+      />
+      <LinkOverlay as="div" href={`/dailyuichallenge/${id}`}>
+        <Text mt={2} fontSize={20}>
+          {title}
+        </Text>
+      </LinkOverlay>
+      <Text fontSize={14}>{children}</Text>
+    </LinkBox>
+    <LinkBox
+      as={NextLink}
+      href={`/works/${id}`}
+      scroll={false}
+      cursor="pointer"
+    >
+      <Image
+        src={thumbnail}
+        alt={title}
+        className="grid-item-thumbnail"
+        placeholder="blur"
+      />
+      <LinkOverlay as="div" href={`/works/${id}`}>
         <Text mt={2} fontSize={20}>
           {title}
         </Text>

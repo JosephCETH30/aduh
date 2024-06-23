@@ -53,7 +53,7 @@ const Works = () => (
             title="Urushalal"
             thumbnail={thumbUrushalal}
           >
-            
+          
           Daftarkan Sekarang Gratis, Sertifikat Halal untuk UMKM di urushalal.co
           </WorkGridItem>
         </Section>
@@ -108,7 +108,7 @@ const Works = () => (
               Free to use, Personal portfolio website interface in Darkmode version 
             </WorkGridItem>
           </Section>
-          {/* <Section delay={0.3}>
+          {/* <Section delay={0.3}> 
             <WorkGridItem
               id="athleticptf"
               thumbnail={thumbAthleticPTF}
