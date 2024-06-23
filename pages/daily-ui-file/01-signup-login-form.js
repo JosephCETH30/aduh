@@ -11,7 +11,7 @@ const Blog = () => (
   <Layout title="001 Signup Login Form">
     <Container>
       <Title>
-        001 Signup Login Form <Badge> Jan 29,2024</Badge>
+        001 Signup Login Form <Badge> June 23,2024</Badge>
       </Title>
       <P>
         Create a sign up page, modal, form,
