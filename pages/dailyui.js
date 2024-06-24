@@ -23,7 +23,7 @@ const Posts = () => (
           <GridItem
             title="#002 Credit Card Checkout"
             thumbnail={thumbpost002}
-            href="#"
+            href="/daily-ui-file/02-card-credit-checkout"
           />
 
         </SimpleGrid>

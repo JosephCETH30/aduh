@@ -12,17 +12,16 @@ import { Title, WorkImage, Meta } from '../../components/blog'
 import P from '../../components/paragraph'
 
 const Blog = () => (
-  <Layout title="001 Signup Login Form">
+  <Layout title="002 Card Credit Checkout">
     <Container>
       <Title>
-        001 Signup Login Form <Badge> June 23,2024</Badge>
+        002 Card Credit Checkout <Badge> June 23,2024</Badge>
       </Title>
       <P>
-        Create a sign up page, modal, form,
-        or app screen related to signing up for
-        something. It could be for a volunteer
-        event, contest registration, a giveaway,
-        or anything you can image. 
+        Design a credit card checkout form or
+        page. Don't forget the important
+        elements such as the numbers, dates,
+        security numbers, etc.
 
         this is what i we got in the process
       </P>
@@ -38,25 +37,26 @@ const Blog = () => (
         </ListItem>
       </List>
 
+
       <br></br>
-      <WorkImage src="https://i.ibb.co.com/0XkjF0Z/Wireframe001signup.jpg" alt="wireframe-001-01" />
+      <WorkImage src="/images/works/WFEXPLAINC3-1.png" alt="wireframe-002-01" />
       <p>that is simple wireframe, Using wireframes in Figma is essential because they help design the basic framework of an application or website without getting bogged down in visual details. Wireframes allow the team to focus on structure, layout, and initial functionality, ensuring that user flow and key elements are correct before moving on to more detailed visual design. This accelerates the iteration process and minimizes time-consuming changes in the final design stages. </p> <br></br>
-      <WorkImage src="/images/works/WFexplain.jpg" alt="wireframe-001-02" />
-      <p>Type 1 in the chat if you want to see the result, dont expect to high about the results lol, k here we go. i told u dont expect too high still day 1 need sleep too.</p><br></br>
-      <WorkImage src="/images/works/Signuppage1.jpg" />
-      <p>i mean which one better, how about we remove those annoying blobs behind the contents, like this lol</p><br></br>
-      <WorkImage src="/images/works/LoginPage2.jpg" alt="results-001-04" />
-      <p>how it looks now, i mean nothing happened. k sorry thx</p><br></br>
-      <WorkImage src="/images/works/signup3.jpg" />
-      <p>anyway i got no flawless english here hablo inglese is hard, thx for visiting my website. have a good day</p>
+      <WorkImage src="/images/works/WFEXPLAINC3-2.png" alt="wireframe-002-02" />
+      <p>i got magh alias indigestion when doing this ui design, well ranitidine could handle these problem. dont begadang mate and please olahraga every morning biar fresh again. im being fr indigestion is sucks u cant enjoy your life but it is what it is.</p><br></br>
+      <WorkImage src="/images/works/WFEXPLAINC3-3.png" />
+      <p>ok here we go for the results, i need 100 taptap layar so i can send the results, fast. 100 taptap layar share than follownya kakak, gajelas bet ok there it is.</p><br></br>
+      <WorkImage src="/images/works/Dailyux2thumb.png" alt="results-002-04" />
+      <p>day 2 trying to be consistent sampe hari ke twenty one jadi bisa repeated-cycle 21/90. Enjoy the design, any saran dan kritik i accept via email or dm on insta</p><br></br>
+      <WorkImage src="/images/works/resultsc3-2.png" alt="results-002-05"/>
+      <p>anyway i got no flawless english here hablo inglese is hard, thx for visiting my website. have a good day. feel free to download these design, link at diatas bang coba scroll ok? makasih thanks</p>
       <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
-          src="/images/works/showcasetravela.mp4"
+          src="/images/works/showcasetravelapaymentcreditcard.mp4"
           title="video player"
           allow="accelerometer; autoplay; loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
-      </AspectRatio> 
+      </AspectRatio>
 
     </Container>
   </Layout>
