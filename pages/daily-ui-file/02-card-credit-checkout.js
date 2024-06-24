@@ -19,7 +19,7 @@ const Blog = () => (
       </Title>
       <P>
         Design a credit card checkout form or
-        page. Don't forget the important
+        page. Dont forget the important
         elements such as the numbers, dates,
         security numbers, etc.
 
