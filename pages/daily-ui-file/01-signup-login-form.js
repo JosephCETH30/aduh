@@ -51,7 +51,7 @@ const Blog = () => (
       <p>anyway i got no flawless english here hablo inglese is hard, thx for visiting my website. have a good day</p>
       <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
-          src="/images/works/showcasetravela.mp4"
+          src="/images/works/showcasetraveladesk.mp4"
           title="video player"
           allow="accelerometer; autoplay; loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
