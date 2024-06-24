@@ -15,7 +15,7 @@ const Blog = () => (
   <Layout title="002 Card Credit Checkout">
     <Container>
       <Title>
-        002 Card Credit Checkout <Badge> June 23,2024</Badge>
+        002 Card Credit Checkout <Badge> June 24,2024</Badge>
       </Title>
       <P>
         Design a credit card checkout form or
