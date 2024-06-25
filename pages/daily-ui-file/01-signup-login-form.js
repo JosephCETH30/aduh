@@ -31,7 +31,7 @@ const Blog = () => (
       <ListItem>
           <Meta>Website</Meta>
           <span>
-            <Link href="https://www.figma.com/design/9Er8M1VBtURPgOwM5QOiYj/DailyUI-Challenge?node-id=27-213&t=lwrLuMrwvwE1oNhX-1" target="_blank">
+            <Link href="https://www.figma.com/design/9Er8M1VBtURPgOwM5QOiYj/DailyUI-Challenge?node-id=0-1" target="_blank">
                Figma File (Read Only) <ExternalLinkIcon mx="2px" />
             </Link>
           </span>
