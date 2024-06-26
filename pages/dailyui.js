@@ -6,7 +6,7 @@ import { GridItem } from '../components/grid-item'
 import thumbpost001 from '../public/images/works/Dailyux1thumb.png'
 import thumbpost002 from '../public/images/works/Dailyux2thumb.png'
 import thumbpost003 from '../public/images/works/Dailyux3thumb.png'
-import thumbpost004 from '../public/images/works/comingsoon4.png'
+import thumbpost004 from '../public/images/works/Dailyux4thumb.png'
 const Posts = () => (
   <Layout title="Daily UI Challenge">
     <Container>
@@ -37,7 +37,7 @@ const Posts = () => (
           <GridItem
             title="#004 Simple Calculator"
             thumbnail={thumbpost004}
-            href="#tomorrow"
+            href="/daily-ui-file/04-simple-calculator"
           />
 
         </SimpleGrid>

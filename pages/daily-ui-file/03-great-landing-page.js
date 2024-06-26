@@ -49,7 +49,7 @@ const Blog = () => (
       <WorkImage src="/images/works/ChampionshipPages.png" alt="results-001-04" />
       <p>Kenapa kuku tidak bisa berbohong? Karena sudah pasti kelihatan (keliatan). Kalau ketawa berarti udah tua</p><br></br>
       <WorkImage src="/images/works/CollectionPages.png" />
-      <p>jangan lupa di taptap layarnya anyway i got no flawless english here hablo inglese is hard, thx for visiting my website. have a good day</p>
+      <p>jangan lupa di taptap layarnya anyway im no flawless english here hablo inglese is hard, thx for visiting my website. have a good day</p>
       <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
           src="/images/works/showcaselandingpage.mp4"
