@@ -1,8 +1,6 @@
 // pages/index.js
 import React, { useEffect, useState } from 'react';
-import MaintenancePage from '../components/MaintenancePage';
-import Layout from '../components/layouts/article';
-import { Container, Box, Heading, Button, List, ListItem, useColorModeValue, Link } from '@chakra-ui/react';
+import { Box, Heading, Text, Center, Container, Button, List, ListItem, useColorModeValue, Link } from '@chakra-ui/react';
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons';
 import NextLink from 'next/link';
 import Paragraph from '../components/paragraph';
@@ -10,9 +8,26 @@ import { BioSection, BioYear } from '../components/bio';
 import Section from '../components/section';
 import { IoLogoInstagram, IoLogoGithub, IoLogoMedium, IoLogoLinkedin } from 'react-icons/io5';
 import Image from 'next/image';
+import Layout from '../components/layouts/article';
+
+const MaintenancePage = () => {
+  return (
+    <Center height="100vh" bg={useColorModeValue('white', 'gray.800')}>
+      <Box textAlign="center">
+        <Heading as="h1" size="2xl" mb={4}>
+          Under Maintenance
+        </Heading>
+        <Text fontSize="xl">
+          We are currently performing scheduled maintenance. We should be back shortly. Thank you for your patience.
+        </Text>
+      </Box>
+    </Center>
+  );
+};
 
 const Home = () => {
-  const [isMaintenance, setIsMaintenance] = useState(true); // Set to true for maintenance mode
+  const [isMaintenance] = useState(true); // Set to true for maintenance mode
+  const bgColor = useColorModeValue('whiteAlpha.500', 'whiteAlpha.200');
 
   // Function to handle the contextmenu event and prevent its default behavior
   const handleContextMenu = (event) => {
@@ -41,7 +56,7 @@ const Home = () => {
           mb={6}
           p={3}
           textAlign="center"
-          bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+          bg={bgColor}
           css={{ backdropFilter: 'blur(10px)' }}
         >
           Hi, I&apos;m an UI/UX Designer Based in Jakarta, Indonesia
