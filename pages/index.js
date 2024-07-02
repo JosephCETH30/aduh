@@ -121,8 +121,8 @@ const Home = () => {
           6 Month Intern Web developer at KCDI
         </BioSection>
         <BioSection>
-          <BioYear>2035</BioYear>
-          I hope i can work in google soon. xdd
+          <BioYear>20___</BioYear>
+          I hope I can get a scholarship for NTU.
         </BioSection>
       </Section>
 
