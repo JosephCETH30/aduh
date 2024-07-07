@@ -36,7 +36,7 @@ const Works = () => (
           </Section>
           <Section delay={0.9}>
             <WorkGridItem id="HitCoffeeApp" thumbnail={thumbHitCoffee} title="Hit Coffee">
-            Coffee Shop App
+            Coffee Shop App 
             </WorkGridItem>
           </Section>
       </SimpleGrid>
