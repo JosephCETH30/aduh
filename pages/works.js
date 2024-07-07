@@ -11,6 +11,7 @@ import thumbUrusizin from '../public/images/works/urusizin.jpg'
 
 // UI Portfolio
 import thumbJagerToDO from '../public/images/works/jagerthumb.png'
+import thumbHitCoffee from '../public/images/works/hitcoffeethumb.png'
 
 
 // AE & Editing Portfolio
@@ -24,13 +25,18 @@ const Works = () => (
 
       
       <Heading as="h3" fontSize={20} mb={4}>
-        UI/UX Design
+        UI/UX Design (Featured Only)
       </Heading>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6} pt={4} mb={10}>
           <Section delay={0.3}>
-            <WorkGridItem id="JagerToDolist" thumbnail={thumbJagerToDO} title="JAGER - Jangan Mager">
+            <WorkGridItem id="JagerToDolist" thumbnail={thumbJagerToDO} title="The Jager">
             To Do List App
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.9}>
+            <WorkGridItem id="HitCoffeeApp" thumbnail={thumbHitCoffee} title="Hit Coffee">
+            Coffee Shop App
             </WorkGridItem>
           </Section>
       </SimpleGrid>

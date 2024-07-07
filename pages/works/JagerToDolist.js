@@ -29,10 +29,10 @@ const Work = () => (
 
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Website</Meta>
+          <Meta>Behance</Meta>
           <span>
-            <Link href="https://www.figma.com/design/h2sQFIq1MHyOOKEVvYDLYj/Todolist?node-id=0-1&t=6tmTgKrMbhP6k4Zg-1" target="_blank">(View Only)
-              https://figma.com/design/h2sQFIq1M..... <ExternalLinkIcon mx="2px" />
+            <Link href="https://www.behance.net/gallery/202326619/JAGER-Jangan-Mager-To-Do-list-App" target="_blank">
+            https://www.behance.net/gallery/202..... <ExternalLinkIcon mx="2px" />
             </Link>
           </span>
         </ListItem>

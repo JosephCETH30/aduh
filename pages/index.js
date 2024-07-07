@@ -109,12 +109,12 @@ const Home = () => {
           Timeline
         </Heading>
         <BioSection>
-          <BioYear>2018</BioYear>
-          Mulai Jadi tim Multimedia di Gereja
+          <BioYear>2019</BioYear>
+          Start being a Multimedia team at Church
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Mulai kenal Koding dan UI/UX
+          Get to know Coding and UI/UX
         </BioSection>
         <BioSection>
           <BioYear>2023</BioYear>
@@ -122,7 +122,7 @@ const Home = () => {
         </BioSection>
         <BioSection>
           <BioYear>20___</BioYear>
-          I hope I can get a scholarship for NTU.
+          hopefully i can get a scholarship for NTU
         </BioSection>
       </Section>
 
@@ -190,9 +190,9 @@ const Home = () => {
           Achievement
         </Heading>
 
-        &nbsp; - Pengiring Juara 1 Solo Vokal FLS2N Jakarta Pusat (2019) <br></br>
-        &nbsp; - Pengiring Juara 2 Solo Vokal FLS2N DKI Jakarta (2019) <br></br>
-        &nbsp; - Pengiring Juara 1 Vocal Group Tingkat SMK Sederajat se Jakarta Pusat 2 (2023) <br></br><br></br>
+        &nbsp; - Pianist Juara 1 Solo Vokal FLS2N Jakarta Pusat (2019) <br></br>
+        &nbsp; - Pianist Juara 2 Solo Vokal FLS2N DKI Jakarta (2019) <br></br>
+        &nbsp; - Pianist Juara 1 Vocal Group Tingkat SMK Sederajat se Jakarta Pusat 2 (2023) <br></br><br></br>
 
         <Heading as="h3" variant="section-title">
           Contact Me 
