@@ -18,7 +18,7 @@ const Work = () => (
         JAGER - Jangan Mager <Badge>2024</Badge>
       </Title>
       <P>
-        JAGER, short for "Jangan Mager," is a to-do
+        JAGER, short for Jangan Mager, is a to-do
         list app created with one mission: to help you
         overcome procrastination and boost your
         productivity. Born out of the common
