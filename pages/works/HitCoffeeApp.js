@@ -26,7 +26,7 @@ const Work = () => (
         coffee shop. HitCoffee app which
         is very user-friendly on your mobile device allows us
         to get you the coffee you desire within a half-
-        a-second, allowing you to "move on" with your life
+        a-second, allowing you to move on with your life
         and prepare for a better day with your regular-priced
         coffee. HitCoffee  Never Ending Fresh Brewed Coffee
         At Your Fingertips.
