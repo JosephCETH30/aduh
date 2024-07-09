@@ -75,6 +75,15 @@ const Work = () => {
         <WorkImage src="/images/works/hitcoffeethumb.png" alt="HitCoffee" />
         <WorkImage src="/images/works/hitcoffee1.png" alt="HitCoffe" />
         <WorkImage src="/images/works/hitcoffee2.png" alt="HitCoffe" />
+
+        {/* Starts */}
+        <WorkImage src="/images/works/hitcoffeestart.png" alt="HitCoffe" />
+        <WorkImage src="/images/works/hitcoffeestart1.png" alt="HitCoffe" />
+        <a href='/images/works/hitcoffeestart2.png'><u>Zoom Sitemap</u></a>
+        <WorkImage src="/images/works/hitcoffeestart2.png" alt="HitCoffe" />
+        <a href='/images/works/hitcoffeestart3.png'><u>Zoom Sitemap</u></a>
+        <WorkImage src="/images/works/hitcoffeestart3.png" alt="HitCoffe" />
+
         <WorkImage src="/images/works/hitcoffee3.png" alt="HitCoffe" />
         <WorkImage src="/images/works/hitcoffee32.png" alt="HitCoffe" />
         <WorkImage src="/images/works/hitcoffee33.png" alt="HitCoffe" />

@@ -30,13 +30,13 @@ const Works = () => (
 
         <SimpleGrid columns={[1, 1, 2]} gap={6} pt={4} mb={10}>
           <Section delay={0.3}>
-            <WorkGridItem id="JagerToDolist" thumbnail={thumbJagerToDO} title="The Jager">
-            To Do List App
-            </WorkGridItem>
-          </Section>
-          <Section delay={0.9}>
             <WorkGridItem id="HitCoffeeApp" thumbnail={thumbHitCoffee} title="Hit Coffee">
             Coffee Shop App 
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.6}>
+            <WorkGridItem id="JagerToDolist" thumbnail={thumbJagerToDO} title="The Jager">
+            To Do List App
             </WorkGridItem>
           </Section>
       </SimpleGrid>
