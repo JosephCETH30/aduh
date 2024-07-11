@@ -42,6 +42,7 @@ const Works = () => (
           </Section>
           <Section delay={0.6}>
             <WorkGridItem id="Diznatch" thumbnail={thumbDizNatch} title="Diznatch Airdrop">
+              
             Crypto Web Interface
             </WorkGridItem>
           </Section>

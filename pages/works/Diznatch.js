@@ -45,7 +45,8 @@ const Work = () => (
           </Link>
         </ListItem>
       </List>
-
+      
+      <WorkImage src="/images/works/CryptoWebsites.gif" alt="Diznutch" />
       <WorkImage src="/images/works/showcasediznutch1.jpg" alt="Diznutch" />
 
 
