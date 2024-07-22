@@ -79,8 +79,8 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="/dailyui" path={path}>
-            Daily UI
+          <LinkItem href="/gallery/mygallery" path={path}>
+            UI Gallery
           </LinkItem>
           <LinkItem href="/CVJoseph" path={path}>My CV</LinkItem>
           <LinkItem path={path} href="mailto:yoseph@skiff.com">
@@ -107,8 +107,8 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/works">
                   Works
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/dailyui">
-                  Daily UI
+                <MenuItem as={MenuLink} href="/gallery">
+                  UI Gallery
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/CVJoseph">
                   My CV
