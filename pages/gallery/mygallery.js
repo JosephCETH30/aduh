@@ -35,7 +35,6 @@ const Blog = () => (
       </Box>
       <WorkImage src="/images/works/collectionui4.jpeg" alt="dump ui" />
       <WorkImage src="/images/works/glassmorphismAVP1.jpeg" alt="dump ui" />
-      <WorkImage src="/images/works/glossy2.png" alt="dump ui" />
 
       {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
