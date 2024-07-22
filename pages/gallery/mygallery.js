@@ -29,13 +29,13 @@ const Blog = () => (
 
       <br></br>
       {/* Adding the GIF */}
-      <Image src="/images/works/collection1uisc.gif" alt="Dump UI" my={4} />
+      <Image src="/images/works/femloaiwebsite.gif" alt="Dump UI" my={4} />
       <Box display="flex" justifyContent="center" my={4}>
-        <Image src="/images/works/collection1_2uisc.gif" alt="Dump UI" />
+        <Image src="/images/works/femloaiwebsite2.gif" alt="Dump UI" />
       </Box>
-      <WorkImage src="/images/works/collectionui2.jpeg" alt="dump ui" />
-      <WorkImage src="/images/works/collectionui3.jpeg" alt="dump ui" />
       <WorkImage src="/images/works/collectionui4.jpeg" alt="dump ui" />
+      <WorkImage src="/images/works/glassmorphismAVP1.jpeg" alt="dump ui" />
+      <WorkImage src="/images/works/glossy2.png" alt="dump ui" />
 
       {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
