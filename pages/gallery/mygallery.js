@@ -5,7 +5,7 @@ import {
   AspectRatio
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { Title, WorkImage, Meta } from '../../components/blog'
+import { Title, WorkImage } from '../../components/blog'
 
 const Blog = () => (
   <Layout title="UI Collection">
