@@ -1,14 +1,10 @@
 import {
   Container,
   Image,
-  Link,
-  List,
-  ListItem,
   Box,
   AspectRatio
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/blog'
 
 const Blog = () => (
