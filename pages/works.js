@@ -12,7 +12,6 @@ import thumbUrusizin from '../public/images/works/urusizin.jpg'
 // UI Portfolio
 import thumbJagerToDO from '../public/images/works/jagerthumb.png'
 import thumbHitCoffee from '../public/images/works/hitcoffeethumb.png'
-import thumbDizNatch from '../public/images/works/showcasediznutch2.jpg'
 
 
 // AE & Editing Portfolio
@@ -38,12 +37,6 @@ const Works = () => (
           <Section delay={0.6}>
             <WorkGridItem id="JagerToDolist" thumbnail={thumbJagerToDO} title="The Jager">
             To Do List App
-            </WorkGridItem>
-          </Section>
-          <Section delay={0.6}>
-            <WorkGridItem id="Diznatch" thumbnail={thumbDizNatch} title="Diznatch Airdrop">
-              
-            Crypto Web Interface
             </WorkGridItem>
           </Section>
       </SimpleGrid>

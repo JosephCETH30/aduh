@@ -4,7 +4,8 @@ import {
   Link,
   List,
   ListItem,
-  Box
+  Box,
+  AspectRatio
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -14,20 +15,9 @@ const Blog = () => (
   <Layout title="UI Collection">
     <Container>
       <Title>
-        My mini UI/UX Collection 
+        My mini UI/UX Collection
       </Title>
-      <List ml={4} my={4}>
-      <ListItem>
-          <Meta>Connect me On Linkedin</Meta>
-          <span>
-            <Link href="https://linkedin.com/in/yoseph-rafael" target="_blank">
-               Joseph Rafael <ExternalLinkIcon mx="2px" />
-            </Link>
-          </span>
-        </ListItem>
-      </List>
 
-      <br></br>
       {/* Adding the GIF */}
       <Image src="/images/works/femloaiwebsite.gif" alt="Dump UI" my={4} />
       <Box display="flex" justifyContent="center" my={4}>
@@ -35,15 +25,19 @@ const Blog = () => (
       </Box>
       <WorkImage src="/images/works/collectionui4.jpeg" alt="dump ui" />
       <WorkImage src="/images/works/glassmorphismAVP1.jpeg" alt="dump ui" />
+      <WorkImage src="/images/works/webkabtoba.jpeg" alt="dump ui" />
 
-      {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>
-        <iframe
-          src="/images/works/showcasetraveladesk.mp4"
+      <AspectRatio maxW="640px" ratio={1.7} my={4}>
+        <video
+          src="/images/works/showcasediznutch.mp4"
           title="video player"
-          allow="accelerometer; autoplay; loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </AspectRatio>  */}
+          autoPlay
+          muted
+          playsInline
+          controls={false}
+        ></video>
+      </AspectRatio>
+
 
     </Container>
   </Layout>
