@@ -5,18 +5,11 @@ import { WorkGridItem } from '../components/grid-item'
 
 // Web Portfolio
 import thumbHalalhero from '../public/images/works/halalhero.jpg'
-import thumbUrushalal from '../public/images/works/urushalal.jpg'
 import thumbKaramel from '../public/images/works/karamel.jpg'
-import thumbUrusizin from '../public/images/works/urusizin.jpg'
 
 // UI Portfolio
 import thumbJagerToDO from '../public/images/works/jagerthumb.png'
 import thumbHitCoffee from '../public/images/works/hitcoffeethumb.png'
-
-
-// AE & Editing Portfolio
-import thumbAeproject1 from '../public/images/works/Fitopenitupthumb.png'
-import thumbAeproject2 from '../public/images/works/deseogourmet.png'
 
 
 const Works = () => (

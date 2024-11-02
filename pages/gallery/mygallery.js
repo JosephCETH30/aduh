@@ -1,8 +1,7 @@
 import {
   Container,
   Image,
-  Box,
-  AspectRatio
+  Box
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { Title, WorkImage } from '../../components/blog'
