@@ -23,7 +23,7 @@ const Blog = () => (
       <WorkImage src="/images/works/glassmorphismAVP1.jpeg" alt="dump ui" />
       <WorkImage src="/images/works/webkabtoba.jpeg" alt="dump ui" />
 
-      <AspectRatio maxW="640px" ratio={1.7} my={4}>
+      {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <video
           src="/images/works/showcasediznutch.mp4"
           title="video player"
@@ -32,7 +32,7 @@ const Blog = () => (
           playsInline
           controls={false}
         ></video>
-      </AspectRatio>
+      </AspectRatio> */}
 
 
     </Container>
