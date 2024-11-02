@@ -29,16 +29,17 @@ const Works = () => (
       </Heading>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6} pt={4} mb={10}>
+          <Section delay={0.6}>
+            <WorkGridItem id="chimelink" thumbnail={thumbJagerToDO} title="ChimeLink">
+            Social Media
+            </WorkGridItem>
+          </Section>
           <Section delay={0.3}>
             <WorkGridItem id="HitCoffeeApp" thumbnail={thumbHitCoffee} title="Hit Coffee">
             Coffee Shop App 
             </WorkGridItem>
           </Section>
-          <Section delay={0.6}>
-            <WorkGridItem id="JagerToDolist" thumbnail={thumbJagerToDO} title="The Jager">
-            To Do List App
-            </WorkGridItem>
-          </Section>
+          
       </SimpleGrid>
   
       
@@ -60,16 +61,6 @@ const Works = () => (
             Daftarkan Sekarang Gratis, Sertifikat Halal untuk UMKM di Halalhero.id
           </WorkGridItem>
         </Section>
-        <Section>
-          <WorkGridItem
-            id="urushalal"
-            title="Urushalal"
-            thumbnail={thumbUrushalal}
-          >
-
-            Daftarkan Sekarang Gratis, Sertifikat Halal untuk UMKM di urushalal.co
-          </WorkGridItem>
-        </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
@@ -81,40 +72,12 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.1}>
-          <WorkGridItem id="urusizin" thumbnail={thumbUrusizin} title="Urus Izin">
-            Kami adalah solusi one-stop untuk membantu Anda mengatasi setiap tantangan dalam memperoleh izin usaha.
-          </WorkGridItem>
-        </Section>
       </SimpleGrid>
 
 
 
 
 
-      {/* Motion Graphic */}
-      <Section delay={0.4}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Others
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.5}>
-          <WorkGridItem id="psofitopenitup" thumbnail={thumbAeproject1} title="Product Spoiler">
-            Fitopenitup Spoiler with AE
-          </WorkGridItem>
-        </Section>
-
-        <Section delay={0.5}>
-          <WorkGridItem id="deseogourmet-mg" thumbnail={thumbAeproject2} title="DeseoGourmet Animation">
-            DeseoGourmet Spoiler with AE
-          </WorkGridItem>
-        </Section>
-
-      </SimpleGrid>
 
 
     </Container>

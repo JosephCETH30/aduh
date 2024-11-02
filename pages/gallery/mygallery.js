@@ -11,7 +11,7 @@ const Blog = () => (
   <Layout title="UI Collection">
     <Container>
       <Title>
-        My mini UI/UX Collection
+        My mini UI/UX Collection (more on Linkedin)
       </Title>
 
       {/* Adding the GIF */}

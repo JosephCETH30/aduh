@@ -74,7 +74,7 @@ const Home = () => {
             overflow="hidden"
           >
             <Image
-              src="/images/fotolinkedin.jpeg"
+              src="/images/1726045172805.jpeg"
               alt="Profile image"
               width="100"
               height="100"
@@ -88,7 +88,7 @@ const Home = () => {
           About Me
         </Heading>
         <Paragraph>
-        Hello!, Im a young UI/UX Designer. Aspiring to transition from academia to higher education, I&apos;ve honed my skills and passion for crafting intuitive and visually appealing user experiences. Proficient in industry-standard tools and methodologies, I thrive in leveraging design thinking to solve complex problems and deliver impactful solutions. Committed to continuous learning and innovation, I eagerly anticipate contributing my expertise to dynamic teams focused on driving user-centric innovation.
+        Im a Junior UI/UX Designer (1y Exp.) and Web Developer (1y+ Exp.), as well as a freshman with a strong skill set in creating intuitive and user-friendly visual experiences. My journey has been enriched from the start in both academia and professional environments, driven by a deep passion for design. I am well-versed in the standard tools and methodologies of industries and have a special mastery over using design thinking in solving complex problems with impactful design solutions.
 
         </Paragraph>
         <Box align="center" my={4}>
@@ -121,8 +121,8 @@ const Home = () => {
           6 Month Intern Web developer at KCDI
         </BioSection>
         <BioSection>
-          <BioYear>20___</BioYear>
-          hopefully i can get a scholarship for NTU
+          <BioYear>2024</BioYear>
+          Continuing to sharpen my skills in the UI/UX field
         </BioSection>
       </Section>
 
